@@ -1,0 +1,27 @@
+{
+  "commodity_specialist": {
+    "name": "commodity_specialist",
+    "n": 7425,
+    "rmse": 0.018453071580449818,
+    "mae": 0.005567072385144328,
+    "dir_acc": 0.9959536012948476,
+    "pnl_gross": 3394.9045,
+    "pnl_at_3pp": 3384.312
+  },
+  "pooled_on_commodity": {
+    "name": "pooled (on commodity test)",
+    "n": 7425,
+    "rmse": 0.008034505461929744,
+    "mae": 0.00465917811255739,
+    "dir_acc": 0.9977070407337469,
+    "pnl_gross": 3396.6985000000004,
+    "pnl_at_3pp": 3386.203
+  },
+  "winner": "pooled",
+  "commodity_categories": [
+    "commodities",
+    "oil"
+  ],
+  "n_commodity_pairs": 768,
+  "n_commodity_rows": 35558
+}

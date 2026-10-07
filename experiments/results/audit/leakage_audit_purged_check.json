@@ -1,0 +1,14 @@
+{
+  "audit": "leakage_purged_check",
+  "tier": 2,
+  "ran_at": "2026-04-26T15:13:06.627301+00:00",
+  "split_source": "data/processed/purged_split",
+  "n_embargo_violations": 0,
+  "n_bridging_pairs": 0,
+  "n_train_pairs": 115,
+  "n_test_pairs": 29,
+  "n_train_rows": 7336,
+  "n_test_rows": 1427,
+  "verdict": "PASS",
+  "comparison_to_canonical": "Canonical 80/20 row-index split had 142 embargo violations (see experiments/results/audit/leakage_audit.json). Purged pair-stratified split has 0 by construction (the split builder enforces train_pairs.isdisjoint(test_pairs))."
+}

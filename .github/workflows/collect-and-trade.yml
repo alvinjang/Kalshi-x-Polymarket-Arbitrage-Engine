@@ -1,0 +1,189 @@
+name: Collect & Paper Trade
+
+# Role: SCC-fallback runner.
+# SCC cron is the primary collector — it fires reliably every 15 minutes
+# with real compute. This workflow is a backup: it runs hourly but only
+# does work if SCC has been silent for more than 45 minutes (i.e. SCC is
+# down or stuck). That way we never race with SCC during normal operation.
+on:
+  # SCHEDULE DISABLED 2026-05-23 post-Q1/Q2 architecture migration.
+  # bars.parquet is now off-tree (symlink to /projectnb/ds340/.../live_state/)
+  # and gitignored, so GHA checkouts have no bars.parquet to operate on.
+  # The Guard step would either error or warn, and the trading cycle would
+  # then fail downstream regardless. Re-enable only after Phase 3 of the
+  # bars-sync mechanism in scripts/scc_hardened/bars_parquet_architecture.md
+  # gives GHA a way to materialize bars.parquet at the start of each run.
+  # schedule:
+  #   - cron: '37 * * * *'   # :37 past every hour, offset from SCC's :00/:15/:30/:45
+  workflow_dispatch:  # Manual trigger from GitHub UI always runs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect-and-trade
+  cancel-in-progress: false
+
+jobs:
+  collect-and-trade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          # Need full history so we can check recent SCC commits
+          fetch-depth: 0
+
+      - name: Check SCC liveness
+        id: scc_check
+        run: |
+          # On manual dispatch always run; on scheduled runs only proceed
+          # if SCC hasn't committed in the last 45 minutes.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manual dispatch — running regardless of SCC state."
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          LAST_SCC=$(git log --oneline --since="45 minutes ago" \
+                              --grep="auto: scc update" | head -1)
+          if [ -n "$LAST_SCC" ]; then
+            echo "SCC is alive: $LAST_SCC"
+            echo "should_run=false" >> $GITHUB_OUTPUT
+          else
+            echo "SCC has been silent >45min — running fallback cycle."
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Set up Python 3.12
+        if: steps.scc_check.outputs.should_run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip packages
+        if: steps.scc_check.outputs.should_run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements-ci.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        if: steps.scc_check.outputs.should_run == 'true'
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements-ci.txt
+
+      - name: Guard bars.parquet integrity
+        if: steps.scc_check.outputs.should_run == 'true'
+        run: |
+          set -e
+          PARQUET="data/live/bars.parquet"
+          if [ ! -f "$PARQUET" ]; then
+            echo "::error::bars.parquet missing at $PARQUET. Aborting cycle to prevent silent breakage."
+            exit 1
+          fi
+          SIZE=$(stat -c%s "$PARQUET" 2>/dev/null || stat -f%z "$PARQUET")
+          if [ "$SIZE" -eq 0 ]; then
+            echo "::error::bars.parquet is 0 bytes (corruption). Last known good was commit 04625b8 on 2026-05-20 04:20 UTC. Recover via: git checkout <good-sha> -- data/live/bars.parquet"
+            exit 1
+          fi
+          python -c "import pyarrow.parquet as pq; m = pq.read_metadata('$PARQUET'); print(f'bars.parquet OK: {m.num_rows} rows, {m.num_columns} cols, size=$SIZE bytes')" \
+            || { echo "::error::bars.parquet is non-zero but unreadable by pyarrow. Likely truncated mid-write."; exit 1; }
+
+      - name: Run adaptive trading cycle (new position-based system)
+        if: steps.scc_check.outputs.should_run == 'true'
+        env:
+          # Phase A canonical-oil deployment gates.
+          # Defaults below match SCC defaults: shadow on, enabled off.
+          # GHA is degraded-fallback only post-Q1/Q2; manual override
+          # available via workflow_dispatch.
+          CANONICAL_OIL_ENABLED: "false"
+          CANONICAL_OIL_SHADOW: "true"
+        run: |
+          echo "=== Adaptive trading cycle (GHA fallback — SCC silent) ==="
+          python -m src.live.trading_cycle --cycle
+          echo ""
+
+      - name: Log research signals (old paper trader, reads fresh bars)
+        if: steps.scc_check.outputs.should_run == 'true'
+        run: |
+          echo "=== Paper trader signal log (Tier 1 + 2) ==="
+          python -m src.live.paper_trader --skip-tier3
+          echo ""
+
+      - name: Show dashboard
+        if: steps.scc_check.outputs.should_run == 'true'
+        run: |
+          python -m src.live.dashboard || echo "(dashboard failed, continuing)"
+
+      - name: Commit and push results
+        if: steps.scc_check.outputs.should_run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Force-add the gitignored live data files.
+          # paper_trades*.jsonl matches both the legacy archive and all
+          # per-UTC-day rotated files (task #27).
+          git add -f data/live/bars.parquet 2>/dev/null || true
+          git add -f data/live/paper_trades*.jsonl 2>/dev/null || true
+
+          # Normal-tracked files from the new trading system
+          git add data/live/positions.db 2>/dev/null || true
+          git add data/live/position_history.jsonl 2>/dev/null || true
+          git add data/live/pair_classifications.json 2>/dev/null || true
+          git add data/live/pair_mapping.json 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No new data to commit"
+            exit 0
+          fi
+
+          # Build a summary for the commit message
+          SUMMARY=$(python - <<'PY' 2>/dev/null || echo "unknown"
+          from pathlib import Path
+          try:
+              import pandas as pd
+              p = Path("data/live/bars.parquet")
+              if p.exists():
+                  df = pd.read_parquet(p)
+                  bars = f"{len(df)} bars, {df['pair_id'].nunique()} pairs"
+              else:
+                  bars = "0 bars"
+          except Exception:
+              bars = "unknown bars"
+
+          # Count open positions from SQLite
+          try:
+              import sqlite3
+              con = sqlite3.connect("data/live/positions.db")
+              n = con.execute("SELECT COUNT(*) FROM positions").fetchone()[0]
+              con.close()
+              pos = f"{n} open positions"
+          except Exception:
+              pos = "0 open positions"
+
+          print(f"{bars}, {pos}")
+          PY
+          )
+
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+          git commit -m "data: gha cycle ${TIMESTAMP} (${SUMMARY})"
+
+          # Retry push with rebase on race. Discovery workflow and SCC
+          # both push to master, so non-fast-forward rejections are normal.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push rejected on attempt ${attempt}; rebasing and retrying..."
+            git pull --rebase --autostash origin master
+          done
+          echo "ERROR: push failed after 3 rebase-retry attempts" >&2
+          exit 1

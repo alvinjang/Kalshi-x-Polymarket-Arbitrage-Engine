@@ -1,0 +1,35 @@
+{
+  "model_name": "(c) LR + LSTM equal-weight",
+  "metrics": {
+    "filtered": {
+      "num_trades": 1441,
+      "pnl": 191.79413716458282,
+      "win_rate": 0.5065926439972241,
+      "sharpe_per_trade": 0.4440651868119642
+    },
+    "unfiltered": {
+      "num_trades": 1550,
+      "pnl": 201.312006198912,
+      "win_rate": 0.5083870967741936,
+      "sharpe_per_trade": 0.43266900102507155
+    },
+    "rejected": {
+      "num_trades": 109,
+      "pnl": 9.51786903432919,
+      "win_rate": 0.5321100917431193,
+      "sharpe_per_trade": 0.28693699870466155
+    },
+    "rejection_rate": 0.0703,
+    "flag_rejected_profitable": true
+  },
+  "timestamp": "2026-04-23T15:55:58.471178+00:00",
+  "members": [
+    "LinearRegressionPredictor",
+    "LSTMPredictor"
+  ],
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "concordance_mode": "strict"
+}

@@ -1,0 +1,108 @@
+{
+  "audit": "costs",
+  "tier": 3,
+  "ran_at": "2026-04-25T19:55:26.798364+00:00",
+  "verdict": "CORRECTED",
+  "simulate_profit_fee_audit": {
+    "function": "src.evaluation.profit_sim.simulate_profit",
+    "fee_charged": 0.0,
+    "rationale": "profit_sim returns raw spread-units P&L (predicted_direction * actual_change) for trades passing the |pred|>threshold gate. No fee deduction; the threshold itself is the only cost gate.",
+    "paper_claim_mismatch": true,
+    "paper_section": "\u00a75.1 line 213, line 215 (PAPER_DRAFT.md)",
+    "paper_text": "'single-split backtest at 2 pp transaction costs' is misleading because the canonical numbers cited in Table 2 use simulate_profit (zero fee), not WalkForwardBacktester (3pp+2pp). The threshold=0.02 is a SIGNAL gate, not a fee deduction.",
+    "recommendation": "Either (a) clarify \u00a75.1: 'with a 2pp signal threshold for trade entry; fees are accounted for separately in \u00a75.6 transaction-cost sensitivity', or (b) move headline numbers to WalkForwardBacktester output (which would change every number in Table 2)."
+  },
+  "walk_forward_backtester_fee_audit": {
+    "function": "src.evaluation.backtester.WalkForwardBacktester",
+    "entry_cost_pp": 0.03,
+    "exit_cost_pp": 0.02,
+    "round_trip_pp": 0.05,
+    "round_trip_bps": 500.0,
+    "vs_realistic_kalshi": "Kalshi taker max fee is 1.75c/contract at C=0.50, = 175 bps of $1 notional, or 0.875% of $100 position. On Kalshi maker (25% of taker): ~44 bps. WalkForwardBacktester's 5pp = 500bps round-trip is ~3x the realistic Kalshi taker max, so its results are CONSERVATIVE wrt fees.",
+    "vs_realistic_polymarket": "Polymarket sport 0.75% / crypto 1.80% / finance 1.0% taker. On a Kalshi+Polymarket arb, total round-trip realistic fee is approximately Kalshi_taker (max 175bps/contract) + Polymarket_taker (75-180 bps of notional) ~= 250-355 bps round-trip in worst case. Backtester 500bps is conservative."
+  },
+  "kalshi_fee_reference_2026": {
+    "source": "kalshi.com/fee-schedule",
+    "formula": "taker_fee_dollars = 0.07 * C * (1 - C) per contract",
+    "max_at_C_0.50": 0.0175,
+    "maker_relative": 0.25,
+    "settlement_fee": 0.0
+  },
+  "polymarket_fee_reference_2026": {
+    "source": "docs.polymarket.com/trading/fees",
+    "taker_pct_by_category": {
+      "crypto": 0.018,
+      "economics": 0.015,
+      "mentions": 0.0156,
+      "culture": 0.0125,
+      "weather": 0.0125,
+      "finance": 0.01,
+      "politics": 0.01,
+      "tech": 0.01,
+      "sports": 0.0075,
+      "geopolitics": 0.0
+    },
+    "maker_pct": 0.0,
+    "gas_per_tx_usd": 0.01
+  },
+  "slippage_sensitivity": {
+    "haircut_0bps": {
+      "haircut_bps": 0,
+      "annualized_sharpe": 8.954862994850004,
+      "total_pnl": 253727.89256449678,
+      "total_fees": 97643.54770066398,
+      "num_trades": 1549,
+      "win_rate": 0.45448676565526147
+    },
+    "haircut_5bps": {
+      "haircut_bps": 5,
+      "annualized_sharpe": 8.940448975716125,
+      "total_pnl": 252751.45708748983,
+      "total_fees": 98619.98317767106,
+      "num_trades": 1549,
+      "win_rate": 0.45448676565526147
+    },
+    "haircut_10bps": {
+      "haircut_bps": 10,
+      "annualized_sharpe": 8.925959683364823,
+      "total_pnl": 251775.02161048265,
+      "total_fees": 99596.41865467721,
+      "num_trades": 1549,
+      "win_rate": 0.4538411878631375
+    },
+    "haircut_20bps": {
+      "haircut_bps": 20,
+      "annualized_sharpe": 8.896753414464438,
+      "total_pnl": 249822.15065647042,
+      "total_fees": 101549.28960869003,
+      "num_trades": 1549,
+      "win_rate": 0.4525500322788896
+    },
+    "haircut_50bps": {
+      "haircut_bps": 50,
+      "annualized_sharpe": 8.807279077265076,
+      "total_pnl": 243963.5377944304,
+      "total_fees": 107407.90247073099,
+      "num_trades": 1549,
+      "win_rate": 0.44932214331826986
+    }
+  },
+  "assumptions": [
+    "LR is the headline model audited (per-trade Sharpe 0.501 in canonical).",
+    "Slippage haircut is applied as additional pp on top of existing 5pp WalkForwardBacktester fee.",
+    "Realistic round-trip cost on a Kalshi+Polymarket arb pair is ~250-355bps (taker on both sides). WalkForwardBacktester's 500bps is conservative; profit_sim's 0bps is optimistic. Truth is in between; 250-300bps is the recommended audit reference.",
+    "Haircut is split 60/40 entry/exit, matching backtester.compute_break_even_fee convention."
+  ],
+  "paper_corrections_required": [
+    {
+      "section": "\u00a75.1 line 213, 215",
+      "issue": "claims '2pp transaction costs' but Table 2 numbers use simulate_profit (zero fee)",
+      "fix": "Clarify: 'with a 2pp signal threshold; fees are analyzed separately in \u00a75.6'"
+    },
+    {
+      "section": "\u00a76.4 Limitations",
+      "issue": "Polymarket gas/withdrawal cost not explicitly stated",
+      "fix": "Add: 'Polymarket charges category-dependent taker fees (0.75-1.80%) and <$0.01 in Polygon gas per transaction; deposits and withdrawals of USDC are free. Kalshi taker fee is 7c * C * (1-C) per contract (max 1.75c at C=0.50); maker fee is 25% of taker.'"
+    }
+  ]
+}

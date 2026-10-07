@@ -1,0 +1,212 @@
+{
+  "variants": [
+    {
+      "name": "(a) LR alone",
+      "concordance_mode": "none",
+      "members": [
+        "LinearRegressionPredictor"
+      ],
+      "weights": [
+        1.0
+      ],
+      "filtered": {
+        "num_trades": 1549,
+        "pnl": 201.68859274098665,
+        "win_rate": 0.5054874112330536,
+        "sharpe_per_trade": 0.4340452854128488
+      },
+      "unfiltered": {
+        "num_trades": 1549,
+        "pnl": 201.68859274098665,
+        "win_rate": 0.5054874112330536,
+        "sharpe_per_trade": 0.4340452854128488
+      },
+      "rejected": {
+        "num_trades": 0,
+        "pnl": 0.0,
+        "win_rate": 0.0,
+        "sharpe_per_trade": 0.0
+      },
+      "rejection_rate": 0.0,
+      "flag_rejected_profitable": false
+    },
+    {
+      "name": "(b) LR + XGB equal-weight",
+      "concordance_mode": "strict",
+      "members": [
+        "LinearRegressionPredictor",
+        "XGBoostPredictor"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "filtered": {
+        "num_trades": 1489,
+        "pnl": 202.13509130951604,
+        "win_rate": 0.5090664875755541,
+        "sharpe_per_trade": 0.454778603688866
+      },
+      "unfiltered": {
+        "num_trades": 1564,
+        "pnl": 204.08584363453772,
+        "win_rate": 0.5083120204603581,
+        "sharpe_per_trade": 0.43652489088335655
+      },
+      "rejected": {
+        "num_trades": 75,
+        "pnl": 1.9507523250216758,
+        "win_rate": 0.49333333333333335,
+        "sharpe_per_trade": 0.08970631574106146
+      },
+      "rejection_rate": 0.048,
+      "flag_rejected_profitable": true
+    },
+    {
+      "name": "(c) LR + LSTM equal-weight",
+      "concordance_mode": "strict",
+      "members": [
+        "LinearRegressionPredictor",
+        "LSTMPredictor"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "filtered": {
+        "num_trades": 1441,
+        "pnl": 191.79413716458282,
+        "win_rate": 0.5065926439972241,
+        "sharpe_per_trade": 0.4440651868119642
+      },
+      "unfiltered": {
+        "num_trades": 1550,
+        "pnl": 201.312006198912,
+        "win_rate": 0.5083870967741936,
+        "sharpe_per_trade": 0.43266900102507155
+      },
+      "rejected": {
+        "num_trades": 109,
+        "pnl": 9.51786903432919,
+        "win_rate": 0.5321100917431193,
+        "sharpe_per_trade": 0.28693699870466155
+      },
+      "rejection_rate": 0.0703,
+      "flag_rejected_profitable": true,
+      "member_lr_pnl": 201.68859274098665
+    },
+    {
+      "name": "(d) LR + XGB + LSTM strict",
+      "concordance_mode": "strict",
+      "members": [
+        "LinearRegressionPredictor",
+        "XGBoostPredictor",
+        "LSTMPredictor"
+      ],
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "filtered": {
+        "num_trades": 1373,
+        "pnl": 194.8554795016206,
+        "win_rate": 0.5127458120903132,
+        "sharpe_per_trade": 0.47532460572222374
+      },
+      "unfiltered": {
+        "num_trades": 1554,
+        "pnl": 207.93206809863182,
+        "win_rate": 0.5141570141570142,
+        "sharpe_per_trade": 0.4515121604734684
+      },
+      "rejected": {
+        "num_trades": 181,
+        "pnl": 13.076588597011195,
+        "win_rate": 0.5248618784530387,
+        "sharpe_per_trade": 0.2657618784339043
+      },
+      "rejection_rate": 0.1165,
+      "flag_rejected_profitable": true
+    }
+  ],
+  "weight_sweep": [
+    {
+      "lr_weight": 0.0,
+      "pnl_filtered": 199.53954170501677,
+      "pnl_unfiltered": 201.63321631960665,
+      "trades_filtered": 1466,
+      "trades_unfiltered": 1555
+    },
+    {
+      "lr_weight": 0.1,
+      "pnl_filtered": 200.98778483211203,
+      "pnl_unfiltered": 204.49999196173746,
+      "trades_filtered": 1475,
+      "trades_unfiltered": 1552
+    },
+    {
+      "lr_weight": 0.2,
+      "pnl_filtered": 202.60060576048215,
+      "pnl_unfiltered": 207.2092763973617,
+      "trades_filtered": 1481,
+      "trades_unfiltered": 1548
+    },
+    {
+      "lr_weight": 0.3,
+      "pnl_filtered": 202.61261081993337,
+      "pnl_unfiltered": 205.76734488649927,
+      "trades_filtered": 1488,
+      "trades_unfiltered": 1554
+    },
+    {
+      "lr_weight": 0.4,
+      "pnl_filtered": 202.51734345723668,
+      "pnl_unfiltered": 206.49627047251147,
+      "trades_filtered": 1490,
+      "trades_unfiltered": 1563
+    },
+    {
+      "lr_weight": 0.5,
+      "pnl_filtered": 202.13509130951604,
+      "pnl_unfiltered": 204.08584363453772,
+      "trades_filtered": 1489,
+      "trades_unfiltered": 1564
+    },
+    {
+      "lr_weight": 0.6,
+      "pnl_filtered": 202.6407216869974,
+      "pnl_unfiltered": 204.08685533607766,
+      "trades_filtered": 1487,
+      "trades_unfiltered": 1558
+    },
+    {
+      "lr_weight": 0.7,
+      "pnl_filtered": 202.48167080857792,
+      "pnl_unfiltered": 203.37576357728818,
+      "trades_filtered": 1483,
+      "trades_unfiltered": 1555
+    },
+    {
+      "lr_weight": 0.8,
+      "pnl_filtered": 202.60171083902716,
+      "pnl_unfiltered": 203.11385337818376,
+      "trades_filtered": 1478,
+      "trades_unfiltered": 1552
+    },
+    {
+      "lr_weight": 0.9,
+      "pnl_filtered": 202.7993612464374,
+      "pnl_unfiltered": 202.09194470665878,
+      "trades_filtered": 1472,
+      "trades_unfiltered": 1554
+    },
+    {
+      "lr_weight": 1.0,
+      "pnl_filtered": 204.22040956755217,
+      "pnl_unfiltered": 201.68859274098665,
+      "trades_filtered": 1455,
+      "trades_unfiltered": 1549
+    }
+  ]
+}

@@ -1,0 +1,746 @@
+{
+  "tier": "xgboost",
+  "model_name": "XGBoost",
+  "hyperparameters_used": {
+    "max_depth": 9,
+    "learning_rate": 0.3,
+    "n_estimators": 300,
+    "random_state": 42
+  },
+  "n_features": 50,
+  "feature_cols": [
+    "kalshi_vwap",
+    "kalshi_open",
+    "kalshi_high",
+    "kalshi_low",
+    "kalshi_close",
+    "kalshi_volume",
+    "kalshi_trade_count",
+    "kalshi_dollar_volume",
+    "kalshi_max_trade_size",
+    "kalshi_hours_since_last_trade",
+    "polymarket_vwap",
+    "polymarket_open",
+    "polymarket_high",
+    "polymarket_low",
+    "polymarket_close",
+    "polymarket_volume",
+    "polymarket_trade_count",
+    "polymarket_dollar_volume",
+    "polymarket_buy_volume",
+    "polymarket_sell_volume",
+    "polymarket_realized_spread",
+    "polymarket_max_trade_size",
+    "polymarket_hours_since_last_trade",
+    "spread",
+    "price_velocity",
+    "volume_ratio",
+    "spread_momentum",
+    "spread_volatility",
+    "polymarket_order_flow_imbalance",
+    "spread_momentum_6",
+    "spread_momentum_12",
+    "spread_volatility_6",
+    "spread_zscore",
+    "spread_range",
+    "dollar_volume_ratio",
+    "trade_count_ratio",
+    "mid_price",
+    "price_divergence_pct",
+    "kalshi_amihud",
+    "polymarket_amihud",
+    "kalshi_cs_spread",
+    "polymarket_cs_spread",
+    "kalshi_hl_vol",
+    "polymarket_hl_vol",
+    "ofi_differential",
+    "polymarket_kyle_lambda",
+    "boundary_distance",
+    "longshot_score",
+    "kalshi_roll_spread",
+    "polymarket_roll_spread"
+  ],
+  "sweep_n_configs": 48,
+  "sweep_best_val_pl_dollars": 4.678000000000001,
+  "sweep_log": [
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.9650000000000004,
+      "val_rmse": 0.03382240931957498,
+      "val_per_trade_sharpe": 0.16736635836350633
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.3850000000000005,
+      "val_rmse": 0.033962942650815474,
+      "val_per_trade_sharpe": 0.015481076212420699
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.7005000000000001,
+      "val_rmse": 0.03406769054969536,
+      "val_per_trade_sharpe": 0.043863915988333606
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.8030000000000006,
+      "val_rmse": 0.03403460368068392,
+      "val_per_trade_sharpe": 0.024635007955579716
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.6765000000000012,
+      "val_rmse": 0.04237978097473076,
+      "val_per_trade_sharpe": 0.0243051611182786
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.8390000000000015,
+      "val_rmse": 0.04940813489520286,
+      "val_per_trade_sharpe": 0.00954849818617564
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 4.342500000000002,
+      "val_rmse": 0.04205317286539763,
+      "val_per_trade_sharpe": 0.07591072356733938
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.441,
+      "val_rmse": 0.05668117390302736,
+      "val_per_trade_sharpe": 0.01673179641419293
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.6170000000000004,
+      "val_rmse": 0.06119059549809896,
+      "val_per_trade_sharpe": 0.028478419334215625
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.3,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.15400000000000102,
+      "val_rmse": 0.04910700614386036,
+      "val_per_trade_sharpe": 0.0018841747343991808
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.3,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": -0.19899999999999873,
+      "val_rmse": 0.058247466163646004,
+      "val_per_trade_sharpe": -0.0022250628174761066
+    },
+    {
+      "config": {
+        "max_depth": 3,
+        "learning_rate": 0.3,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": -0.48499999999999965,
+      "val_rmse": 0.06118733897711513,
+      "val_per_trade_sharpe": -0.005205668168325645
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.7825000000000006,
+      "val_rmse": 0.03373232576934453,
+      "val_per_trade_sharpe": 0.037826556313095415
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.4260000000000015,
+      "val_rmse": 0.034070559060916605,
+      "val_per_trade_sharpe": 0.05971292643358095
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.8030000000000008,
+      "val_rmse": 0.035507252777114987,
+      "val_per_trade_sharpe": 0.012313539287171885
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.244000000000001,
+      "val_rmse": 0.035476343582105406,
+      "val_per_trade_sharpe": 0.022696747544713663
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.826500000000001,
+      "val_rmse": 0.04968472329976208,
+      "val_per_trade_sharpe": 0.009636095418444575
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.198000000000001,
+      "val_rmse": 0.05735918085050969,
+      "val_per_trade_sharpe": 0.02398270194346409
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.535000000000001,
+      "val_rmse": 0.04541978854523321,
+      "val_per_trade_sharpe": 0.03243150666999877
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.573500000000001,
+      "val_rmse": 0.062294317766355224,
+      "val_per_trade_sharpe": 0.0166241427325343
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.5765000000000005,
+      "val_rmse": 0.06460596033925377,
+      "val_per_trade_sharpe": 0.016766638808205593
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.3,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.4505,
+      "val_rmse": 0.04550810373559275,
+      "val_per_trade_sharpe": 0.027038589153139184
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.3,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 4.521000000000001,
+      "val_rmse": 0.0524262710074807,
+      "val_per_trade_sharpe": 0.049047649845360135
+    },
+    {
+      "config": {
+        "max_depth": 5,
+        "learning_rate": 0.3,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 3.7880000000000003,
+      "val_rmse": 0.05405822863553208,
+      "val_per_trade_sharpe": 0.040346913619697014
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.7995000000000009,
+      "val_rmse": 0.03378843140099396,
+      "val_per_trade_sharpe": 0.02205456876095817
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.9865000000000028,
+      "val_rmse": 0.03526703171202199,
+      "val_per_trade_sharpe": 0.019162207448266553
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.8610000000000015,
+      "val_rmse": 0.03734274346891551,
+      "val_per_trade_sharpe": 0.043588026244483304
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.2255000000000016,
+      "val_rmse": 0.03767314457096656,
+      "val_per_trade_sharpe": 0.030855475177061775
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.0375,
+      "val_rmse": 0.05594609503152248,
+      "val_per_trade_sharpe": 0.011473512701565686
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 0.7074999999999999,
+      "val_rmse": 0.058616599479144084,
+      "val_per_trade_sharpe": 0.007727503933007169
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.0870000000000006,
+      "val_rmse": 0.05868438995410782,
+      "val_per_trade_sharpe": 0.024275615904109166
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 3.1145000000000005,
+      "val_rmse": 0.06746585379328283,
+      "val_per_trade_sharpe": 0.034766239030101564
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 3.0490000000000013,
+      "val_rmse": 0.07045724823888513,
+      "val_per_trade_sharpe": 0.03344697594193341
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.3,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.6094999999999997,
+      "val_rmse": 0.06536064323450873,
+      "val_per_trade_sharpe": 0.028387087325092316
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.3,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.2925000000000013,
+      "val_rmse": 0.06719886495914125,
+      "val_per_trade_sharpe": 0.02475777506340214
+    },
+    {
+      "config": {
+        "max_depth": 7,
+        "learning_rate": 0.3,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.1355000000000013,
+      "val_rmse": 0.0674418300998079,
+      "val_per_trade_sharpe": 0.02289669605320061
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.01,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.608000000000001,
+      "val_rmse": 0.03541451183716222,
+      "val_per_trade_sharpe": 0.03488618256061224
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.01,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.7600000000000007,
+      "val_rmse": 0.03934866342726299,
+      "val_per_trade_sharpe": 0.0257718185222895
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.01,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.5154999999999994,
+      "val_rmse": 0.04690377451660645,
+      "val_per_trade_sharpe": 0.02938497663284234
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.05,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.3610000000000007,
+      "val_rmse": 0.04589085461934401,
+      "val_per_trade_sharpe": 0.015489349350987927
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.05,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 3.0845000000000002,
+      "val_rmse": 0.06414902083022207,
+      "val_per_trade_sharpe": 0.03384129998992818
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.05,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.6579999999999995,
+      "val_rmse": 0.06840673018578704,
+      "val_per_trade_sharpe": 0.028734663899866526
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.1,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 1.3244999999999996,
+      "val_rmse": 0.05503779716182626,
+      "val_per_trade_sharpe": 0.014408995464820454
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.1,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.4065000000000003,
+      "val_rmse": 0.0632582868067306,
+      "val_per_trade_sharpe": 0.026061226503432174
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.1,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 2.7685000000000004,
+      "val_rmse": 0.06415439726085446,
+      "val_per_trade_sharpe": 0.029588815206139946
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.3,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "val_pl_dollars": 3.411000000000001,
+      "val_rmse": 0.08176186452414763,
+      "val_per_trade_sharpe": 0.03784424435791881
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.3,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "val_pl_dollars": 4.678000000000001,
+      "val_rmse": 0.08290888494973521,
+      "val_per_trade_sharpe": 0.05137322158888396
+    },
+    {
+      "config": {
+        "max_depth": 9,
+        "learning_rate": 0.3,
+        "n_estimators": 500,
+        "random_state": 42
+      },
+      "val_pl_dollars": 4.678000000000001,
+      "val_rmse": 0.08290888494997371,
+      "val_per_trade_sharpe": 0.05137322158888396
+    }
+  ],
+  "rmse": 0.04334221623677875,
+  "directional_accuracy": 0.5458316051430941,
+  "win_rate": 0.3311529026982829,
+  "num_trades": 3669,
+  "pl_dollars": 7.413,
+  "per_trade_sharpe": 0.07361627735420664,
+  "alpha_bps": 20.204415372035974,
+  "per_trade_sharpe_ci": [
+    0.045525136041757286,
+    0.10118806495904735
+  ],
+  "alpha_bps_ci": [
+    11.741244208231127,
+    29.394998637230863
+  ],
+  "pl_dollars_ci": [
+    4.3078625,
+    10.785025000000003
+  ],
+  "n_bootstrap": 10000,
+  "walk_forward_per_window": [
+    {
+      "window_idx": 1,
+      "train_pairs": 69,
+      "test_pairs": 10,
+      "test_rows": 406,
+      "test_start_iso": "2026-04-12T18:00:16",
+      "test_end_iso": "2026-04-25T02:00:10",
+      "num_trades": 373,
+      "sharpe": 0.08577766046407535,
+      "alpha_bps": 20.05361930294907,
+      "pl": 0.7480000000000003
+    },
+    {
+      "window_idx": 2,
+      "train_pairs": 69,
+      "test_pairs": 15,
+      "test_rows": 406,
+      "test_start_iso": "2026-04-25T02:00:10",
+      "test_end_iso": "2026-04-25T13:30:12",
+      "num_trades": 386,
+      "sharpe": 3.092652849396337e-17,
+      "alpha_bps": 2.8762254523967786e-15,
+      "pl": 1.1102230246251565e-16
+    },
+    {
+      "window_idx": 3,
+      "train_pairs": 69,
+      "test_pairs": 15,
+      "test_rows": 407,
+      "test_start_iso": "2026-04-25T13:30:12",
+      "test_end_iso": "2026-04-25T22:45:34",
+      "num_trades": 362,
+      "sharpe": 0.0962788255503843,
+      "alpha_bps": 19.18508287292819,
+      "pl": 0.6945000000000006
+    },
+    {
+      "window_idx": 4,
+      "train_pairs": 69,
+      "test_pairs": 15,
+      "test_rows": 406,
+      "test_start_iso": "2026-04-25T22:45:34",
+      "test_end_iso": "2026-04-26T09:30:10",
+      "num_trades": 374,
+      "sharpe": -0.02268025101061835,
+      "alpha_bps": -4.184491978609644,
+      "pl": -0.1565000000000007
+    },
+    {
+      "window_idx": 5,
+      "train_pairs": 69,
+      "test_pairs": 15,
+      "test_rows": 407,
+      "test_start_iso": "2026-04-26T09:30:10",
+      "test_end_iso": "2026-04-26T20:15:18",
+      "num_trades": 350,
+      "sharpe": 0.009702906276285799,
+      "alpha_bps": 1.857142857142846,
+      "pl": 0.06499999999999961
+    },
+    {
+      "window_idx": 6,
+      "train_pairs": 69,
+      "test_pairs": 15,
+      "test_rows": 406,
+      "test_start_iso": "2026-04-26T20:15:18",
+      "test_end_iso": "2026-04-27T05:45:16",
+      "num_trades": 349,
+      "sharpe": 0.11946079769064742,
+      "alpha_bps": 23.2951289398281,
+      "pl": 0.8130000000000006
+    },
+    {
+      "window_idx": 7,
+      "train_pairs": 69,
+      "test_pairs": 15,
+      "test_rows": 406,
+      "test_start_iso": "2026-04-27T05:45:16",
+      "test_end_iso": "2026-04-27T17:15:29",
+      "num_trades": 366,
+      "sharpe": 0.07731404120532145,
+      "alpha_bps": 22.554644808743216,
+      "pl": 0.8255000000000017
+    },
+    {
+      "window_idx": 8,
+      "train_pairs": 69,
+      "test_pairs": 17,
+      "test_rows": 407,
+      "test_start_iso": "2026-04-27T17:15:29",
+      "test_end_iso": "2026-04-28T10:00:10",
+      "num_trades": 380,
+      "sharpe": 0.021205472635865263,
+      "alpha_bps": 5.105263157894706,
+      "pl": 0.1939999999999988
+    },
+    {
+      "window_idx": 9,
+      "train_pairs": 69,
+      "test_pairs": 12,
+      "test_rows": 406,
+      "test_start_iso": "2026-04-28T10:00:10",
+      "test_end_iso": "2026-04-29T15:45:29",
+      "num_trades": 367,
+      "sharpe": 0.17647695212711903,
+      "alpha_bps": 93.06539509536783,
+      "pl": 3.4154999999999993
+    },
+    {
+      "window_idx": 10,
+      "train_pairs": 69,
+      "test_pairs": 6,
+      "test_rows": 407,
+      "test_start_iso": "2026-04-29T15:45:29",
+      "test_end_iso": "2026-05-01T18:00:32",
+      "num_trades": 362,
+      "sharpe": 0.06574549955265026,
+      "alpha_bps": 22.486187845303885,
+      "pl": 0.8140000000000006
+    }
+  ],
+  "runtime_seconds": 34.77688121795654,
+  "runtime_breakdown": {
+    "sweep_seconds": 33.876551151275635,
+    "final_fit_seconds": 0.9003300666809082
+  },
+  "convergence_diagnostics": {
+    "convergence_flag": true,
+    "note": "XGBoost gradient boosting, always converges within n_estimators bound"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "model_name": "(d) LR + XGB + LSTM strict",
+  "metrics": {
+    "filtered": {
+      "num_trades": 1373,
+      "pnl": 194.8554795016206,
+      "win_rate": 0.5127458120903132,
+      "sharpe_per_trade": 0.47532460572222374
+    },
+    "unfiltered": {
+      "num_trades": 1554,
+      "pnl": 207.93206809863182,
+      "win_rate": 0.5141570141570142,
+      "sharpe_per_trade": 0.4515121604734684
+    },
+    "rejected": {
+      "num_trades": 181,
+      "pnl": 13.076588597011195,
+      "win_rate": 0.5248618784530387,
+      "sharpe_per_trade": 0.2657618784339043
+    },
+    "rejection_rate": 0.1165,
+    "flag_rejected_profitable": true
+  },
+  "timestamp": "2026-04-23T15:55:58.471306+00:00",
+  "members": [
+    "LinearRegressionPredictor",
+    "XGBoostPredictor",
+    "LSTMPredictor"
+  ],
+  "weights": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "concordance_mode": "strict"
+}

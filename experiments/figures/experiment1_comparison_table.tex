@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{Experiment 1: Cross-Tier Model Comparison. Best value in each column is bolded. RMSE and MAE are lower-is-better; all others are higher-is-better.}
+\label{tab:experiment1}
+\begin{tabular}{llrrrrrrr}
+\toprule
+Model & Tier & RMSE & MAE & Dir Acc & P\&L & Trades & Win Rate & Sharpe \\
+\midrule
+Naive (Spread Closes) & 1 & 0.4995 & 0.3806 & 0.5333 & 58.1 & 1460 & 0.4795 & 12.66 \\
+Volume (Higher Volume Correct) & 1 & 0.4566 & 0.3449 & 0.5333 & 59.8 & 1440 & 0.4806 & 12.76 \\
+Linear Regression & 1 & 0.3081 & 0.2253 & 0.6594 & 230.1 & 1542 & 0.5733 & 15.49 \\
+XGBoost & 1 & \textbf{0.2857} & 0.2216 & \textbf{0.6776} & \textbf{238.4} & 1538 & \textbf{0.5819} & 15.64 \\
+\midrule
+GRU & 2 & 0.2928 & 0.2229 & 0.6433 & 212.5 & 1517 & 0.5583 & 20.24 \\
+LSTM & 2 & 0.2915 & 0.2239 & 0.6545 & 221.8 & 1547 & 0.5650 & \textbf{21.12} \\
+\midrule
+PPO-Raw & 3 & 0.3189 & \textbf{0.2027} & 0.6055 & 158.2 & \textbf{1656} & 0.5217 & 14.02 \\
+PPO-Filtered & 3 & 0.3268 & 0.2042 & 0.2719 & 4.6 & 899 & 0.4316 & 0.79 \\
+\bottomrule
+\end{tabular}
+\end{table}

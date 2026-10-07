@@ -1,0 +1,33 @@
+{
+  "audit": "live_vs_backtest",
+  "tier": 6,
+  "ran_at": "2026-04-25T20:03:55.762279+00:00",
+  "verdict": "PASS",
+  "live": {
+    "wins": 441,
+    "total": 1224,
+    "wr": 0.3602941176470588
+  },
+  "backtest_estimate": {
+    "wr": 0.765,
+    "wins_est": 153,
+    "total_est": 200,
+    "note": "Backtest n is approximate; PAPER_DRAFT.md \u00a75.3 cites WR 76.5% and +$0.41/trade for the oil near-expiry cohort but does not state the trade count. n=200 is a conservative estimate; verdict and effect-size are robust to n in [50, 1000]."
+  },
+  "two_proportion_z_test": {
+    "z_statistic": -10.761379562124299,
+    "p_value": 5.23800786739184e-27,
+    "alternative": "two-sided",
+    "interpretation": "p << 0.001 expected given live n=1,224 and a 40-percentage-point WR difference. The gap is statistically real, not noise."
+  },
+  "cohens_h": -0.841781984159059,
+  "effect_size_label": "large",
+  "honest_interpretation": "The gap is statistically significant AND large in effect, but the samples are not measuring the same thing: 76.5% backtest WR is on the near-expiry oil subset only; 36.0% live WR is on the full 1,224-position commodity cohort across all series and expiries (KXBRENTW, KXWTI, KXWTIW, KXBRENTMON, etc.). PAPER_DRAFT.md \u00a75.9.1 lines 463-464 already disclose this; the z-test is supplementary evidence that the disclosure is appropriate, not over-stated.",
+  "paper_corrections_required": [],
+  "assumptions": [
+    "BACKTEST_OIL_TOTAL_EST = 200 (paper does not state n for \u00a75.3 oil near-expiry cohort). Verdict robust to n in [50, 1000].",
+    "Two-proportion z-test assumes independence within each sample. Live positions are quasi-independent across distinct (kalshi_ticker, poly_id) pairs and across hourly bars within a 12h window.",
+    "Cohen's h thresholds follow Cohen (1988): 0.2 small / 0.5 medium / 0.8 large.",
+    "Live numbers (1,224 / 36.0% / 441) are read verbatim from PAPER_DRAFT.md \u00a75.9.1 line 450; we do NOT re-query the live system."
+  ]
+}

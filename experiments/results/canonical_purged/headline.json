@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-04-26T15:09:25.065881+00:00",
+  "generator": "experiments/run_canonical_purged.py",
+  "phase": "18-08",
+  "purpose": "Leakage-free LR + XGBoost retraining on the pair-stratified train/test split built by experiments/audit/build_purged_split.py. Produces the headline numbers that replace the leaky canonical headline (per Plan 18-07 resumption).",
+  "protocol": {
+    "seed": 42,
+    "position_size_usd": 100.0,
+    "threshold": 0.02,
+    "split_type": "pair_stratified_80_20",
+    "split_seed": 42,
+    "n_train_pairs": 115,
+    "n_test_pairs": 29,
+    "n_train_rows": 7221,
+    "n_test_rows": 1398,
+    "feature_count": 51,
+    "non_feature_columns": [
+      "group_id",
+      "kalshi_buy_volume",
+      "kalshi_order_flow_imbalance",
+      "kalshi_realized_spread",
+      "kalshi_sell_volume",
+      "pair_id",
+      "spread_change_target",
+      "time_idx",
+      "timestamp"
+    ],
+    "purged_split_metadata": "data/processed/purged_split/split_metadata.json",
+    "source": "experiments/run_canonical_purged.py"
+  },
+  "models": {
+    "linear_regression": {
+      "model": "linear_regression",
+      "rmse": 0.2780069333193607,
+      "mae": 0.21075925951367971,
+      "directional_accuracy": 0.5386266094420601,
+      "total_pnl": 199.63217000668266,
+      "num_trades": 1270,
+      "win_rate": 0.5480314960629922,
+      "sharpe_per_trade": 0.515875241054597,
+      "sharpe_annualized": 0.0,
+      "alpha_bps_per_trade": 15.719068504463202,
+      "max_drawdown_pct": 0.0665234325939952,
+      "position_size_usd": 100.0,
+      "threshold": 0.02,
+      "seed": 42,
+      "source": "retrained_in_canonical_purged_script"
+    },
+    "xgboost": {
+      "model": "xgboost",
+      "rmse": 0.28339380663992825,
+      "mae": 0.21557907570029405,
+      "directional_accuracy": 0.5329041487839771,
+      "total_pnl": 193.22825575586288,
+      "num_trades": 1300,
+      "win_rate": 0.5384615384615384,
+      "sharpe_per_trade": 0.4903642827030892,
+      "sharpe_annualized": 0.0,
+      "alpha_bps_per_trade": 14.86371198122022,
+      "max_drawdown_pct": 0.085278566939122,
+      "position_size_usd": 100.0,
+      "threshold": 0.02,
+      "seed": 42,
+      "source": "retrained_in_canonical_purged_script"
+    }
+  }
+}

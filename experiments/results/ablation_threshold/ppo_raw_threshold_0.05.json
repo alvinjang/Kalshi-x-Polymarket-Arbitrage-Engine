@@ -1,0 +1,18 @@
+{
+  "model_name": "PPO-Raw",
+  "threshold": 0.05,
+  "metrics": {
+    "rmse": 0.318102017945312,
+    "mae": 0.20200871703161238,
+    "directional_accuracy": 0.6208829712683952,
+    "total_pnl": 0.0,
+    "num_trades": 0,
+    "win_rate": 0.0,
+    "sharpe_ratio": 0.0,
+    "sharpe_per_trade": 0.0
+  },
+  "n_train_rows": 6802,
+  "n_test_rows": 1673,
+  "n_features": 31,
+  "pnl_series": []
+}

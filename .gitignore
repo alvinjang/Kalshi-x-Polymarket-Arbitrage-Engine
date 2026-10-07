@@ -1,0 +1,87 @@
+.venv/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+data/raw/
+data/processed/
+# Keep training data for CI (small files, needed by GitHub Actions)
+!data/processed/train.parquet
+!data/processed/test.parquet
+!data/processed/aligned_pairs.parquet
+!data/processed/all_pairs_v2.json
+# Canonical oil-only split for the 2026 retraining study. Committed
+# so every number in the writeup traces to a reproducible artifact.
+!data/processed/canonical_oil/
+!data/processed/canonical_oil/*.parquet
+!data/processed/canonical_oil/*.json
+# Live data managed by GitHub Actions (force-added in workflow).
+# paper_trades*.jsonl covers both the legacy archive and per-UTC-day
+# rotated files (task #27). Force-added in collect-and-trade workflow.
+data/live/bars.parquet
+data/live/active_matches.json
+data/live/paper_trades*.jsonl
+data/live/retrain_log.json
+# Phase A shadow-mode predictions log (canonical-oil XGBoost). Grows
+# per-cycle per-oil-pair (MBs/day expected). Off-tree by design.
+data/live/canonical_predictions.jsonl
+# Phase A.E1 realized P&L log — predictions enriched with next-bar
+# outcomes. Same gitignore treatment as the shadow log.
+data/live/canonical_realized.jsonl
+# Phase 15 backup snapshots (pre-fix state; archived locally but
+# not tracked — too large and the pre-fix state is already pinned
+# in 15-01-DIAGNOSTIC.md probe evidence).
+data/live/*.pre-phase15.json
+data/pmxt/
+
+# Generated / runtime output (TFT training artifacts, session scratch)
+lightning_logs/
+checkpoints/
+graphify-out/
+.claude/
+
+# Internal working docs — kept locally for development reference but not
+# included in the public repo. Paper, slides, and audit report are
+# submitted separately; only code lives in this repo.
+CLAUDE.md
+AGENTS.md
+SLIDES_GUIDE.md
+STUDY_GUIDE.html
+FINDINGS.md
+TRADING_REPORT.md
+ROADMAP.md
+.planning/
+
+# Paper and slide deliverables (submitted separately, not in the code repo)
+# AUDIT_REPORT.md stays tracked — paper §3.5 references it by filename.
+PAPER_DRAFT.md
+paper.pdf
+paper.docx
+paper.pptx
+slides_deck.html
+slides_deck.pptx
+DS340_Final_Paper_*.pdf
+DS340_Final_Paper_*.docx
+DS340_Final_Paper_*.pptx
+scripts/build_paper_pdf.sh
+
+# Source assignment / proposal PDFs (shouldn't be in the deliverable repo)
+DS340*.pdf
+"DS340 Project Proposal*.pdf"
+
+# Old slide format superseded by slides_deck.html / slides_deck.pptx
+slides.md
+slides.pdf
+
+# Debug logs
+rebuild_*.log
+*.log
+
+# Live trading credentials — NEVER commit
+.env.live
+.env.live.local
+~/.kalshi/

@@ -1,0 +1,16 @@
+{
+  "per_trade_sharpe": 0.5878,
+  "daily_annualized_sharpe": 56.45,
+  "per_pair_annualized_sharpe": 4.28,
+  "realistic_annualized_sharpe": 53.4,
+  "bootstrap_median": 58.36,
+  "bootstrap_ci_2_5": 41.55,
+  "bootstrap_ci_97_5": 99.76,
+  "assumptions": {
+    "fee_pp": 0.02,
+    "slippage_pp": 0.01,
+    "n_trades": 1280,
+    "n_days": 14,
+    "n_pairs": 144
+  }
+}

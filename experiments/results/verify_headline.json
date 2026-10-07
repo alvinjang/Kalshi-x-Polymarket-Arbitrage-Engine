@@ -1,0 +1,56 @@
+{
+  "results": {
+    "naive": {
+      "rmse": 0.49947,
+      "directional_accuracy": 0.5333,
+      "num_trades": 1460,
+      "pnl": 28.92053,
+      "win_rate": 0.4089,
+      "sharpe_per_trade": 0.06232
+    },
+    "volume": {
+      "rmse": 0.45663,
+      "directional_accuracy": 0.5333,
+      "num_trades": 1440,
+      "pnl": 31.012,
+      "win_rate": 0.40972,
+      "sharpe_per_trade": 0.06767
+    },
+    "linear_regression": {
+      "rmse": 0.30632,
+      "directional_accuracy": 0.6671,
+      "num_trades": 1549,
+      "pnl": 201.68859,
+      "win_rate": 0.50549,
+      "sharpe_per_trade": 0.43405
+    },
+    "xgboost": {
+      "rmse": 0.29297,
+      "directional_accuracy": 0.6741,
+      "num_trades": 1555,
+      "pnl": 201.63322,
+      "win_rate": 0.50804,
+      "sharpe_per_trade": 0.4362
+    },
+    "gru": {
+      "rmse": 0.29265,
+      "directional_accuracy": 0.6496,
+      "num_trades": 1516,
+      "pnl": 174.11041,
+      "win_rate": 0.48813,
+      "sharpe_per_trade": 0.37192
+    },
+    "lstm": {
+      "rmse": 0.29472,
+      "directional_accuracy": 0.6594,
+      "num_trades": 1542,
+      "pnl": 182.71781,
+      "win_rate": 0.5,
+      "sharpe_per_trade": 0.38691
+    }
+  },
+  "features": 51,
+  "train_rows": 6802,
+  "test_rows": 1673,
+  "timestamp": "2026-04-17T23:27:56.620706+00:00"
+}

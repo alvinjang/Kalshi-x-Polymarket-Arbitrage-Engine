@@ -1,0 +1,33 @@
+{
+  "model_name": "(a) LR alone",
+  "metrics": {
+    "filtered": {
+      "num_trades": 1549,
+      "pnl": 201.68859274098665,
+      "win_rate": 0.5054874112330536,
+      "sharpe_per_trade": 0.4340452854128488
+    },
+    "unfiltered": {
+      "num_trades": 1549,
+      "pnl": 201.68859274098665,
+      "win_rate": 0.5054874112330536,
+      "sharpe_per_trade": 0.4340452854128488
+    },
+    "rejected": {
+      "num_trades": 0,
+      "pnl": 0.0,
+      "win_rate": 0.0,
+      "sharpe_per_trade": 0.0
+    },
+    "rejection_rate": 0.0,
+    "flag_rejected_profitable": false
+  },
+  "timestamp": "2026-04-23T15:55:58.470831+00:00",
+  "members": [
+    "LinearRegressionPredictor"
+  ],
+  "weights": [
+    1.0
+  ],
+  "concordance_mode": "none"
+}

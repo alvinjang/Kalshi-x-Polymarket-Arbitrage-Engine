@@ -1,0 +1,36 @@
+{
+  "audit": "sharpe",
+  "tier": 1,
+  "ran_at": "2026-04-25T19:48:03.612189+00:00",
+  "verdict": "PASS",
+  "canonical_input": "experiments/results/canonical/headline.json",
+  "model_audited": "linear_regression",
+  "per_trade_sharpe_recomputed": 0.500716001685626,
+  "per_trade_sharpe_canonical": 0.5008777055495818,
+  "per_trade_sharpe_drift": 0.0001617038639557533,
+  "per_pair_sharpe_naive": 0.780852099060539,
+  "per_pair_sharpe_naive_ci_95": [
+    0.6849958397724547,
+    0.9038462095848417
+  ],
+  "avg_pairwise_corr": 0.041830805130603534,
+  "n_pairs_compared": 461,
+  "n_eff": 20.62503854560834,
+  "per_pair_sharpe_corr_corrected": 0.29551866792107984,
+  "annualization": {
+    "n_pairs": 144,
+    "test_span_days": 92.67,
+    "pairs_per_year": 567.19,
+    "annualization_factor": 23.8158,
+    "formula": "annualized_sharpe = per_pair_sharpe_naive * sqrt(pairs_per_year)"
+  },
+  "per_pair_sharpe_annualized_naive": 18.596617420805984,
+  "per_pair_sharpe_annualized_corrected": 7.038013491474853,
+  "assumptions": [
+    "Per-pair returns are stationary (no regime change within test window).",
+    "Pair-correlation effective-sample correction follows Bailey-L\u00f3pez de Prado (2012) framework: n_eff = N / (1 + (N-1) * avg_corr); sharpe_corrected = sharpe_naive * sqrt(n_eff/N).",
+    "Annualization uses pairs_per_year = 567.19, derived from test_span_days = 92.67 and N_pairs = 144. Assumes pair-lifecycle distribution in test window is representative of annual operation (likely violated; flag for \u00a76.4).",
+    "Bootstrap CI uses simple resample-with-replacement (10,000 resamples). Does NOT correct for autocorrelation in per-pair returns (use Politis-Romano stationary bootstrap if AR(1) coef is large)."
+  ],
+  "n_bootstrap": 10000
+}

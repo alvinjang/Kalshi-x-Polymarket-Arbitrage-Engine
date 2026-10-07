@@ -1,0 +1,14 @@
+# Minimal deps for GitHub Actions (collector + paper trader)
+# CPU-only torch to keep install fast
+numpy>=2.0
+pandas>=2.0
+pyarrow>=15.0
+requests>=2.30
+scikit-learn>=1.5
+xgboost>=3.0
+torch>=2.0
+gymnasium>=1.0
+stable-baselines3>=2.0
+sentence-transformers>=5.0
+shap>=0.50
+pmxt>=2.0

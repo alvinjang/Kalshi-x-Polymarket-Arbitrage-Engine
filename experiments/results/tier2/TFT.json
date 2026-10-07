@@ -1,0 +1,32 @@
+{
+  "model": "TFT",
+  "converged": false,
+  "rmse": 0.3257508569980411,
+  "rmse_std": 0.00032583733840936763,
+  "seed_rmses": [
+    0.32643022965851015,
+    0.326453316619896,
+    0.3257508569980411
+  ],
+  "total_pnl": 6.568712790473564,
+  "seed_pnls": [
+    -1.3732866536302955,
+    -0.5070089654360289,
+    6.568712790473564
+  ],
+  "gru_baseline_rmse": 0.2928,
+  "beats_gru": false,
+  "attention_audit": {
+    "entropy": 2.6562681198120117,
+    "max_variable_weight": 0.36848917603492737,
+    "threshold_entropy": 1.9659128163621629,
+    "is_degenerate": false
+  },
+  "note": "TFT did not beat GRU at N=6802 (avg RMSE=0.3262 vs GRU=0.2928). Documented negative result per TFT-04 Option B. Extends the simplicity-wins thesis to transformer architectures.",
+  "mae": 0.20253221631344534,
+  "directional_accuracy": 0.5171688857743518,
+  "num_trades": 120,
+  "win_rate": 0.375,
+  "sharpe_ratio": 1.9252291936364414,
+  "sharpe_per_trade": 0.15531980895793124
+}

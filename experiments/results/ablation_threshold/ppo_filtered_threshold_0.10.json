@@ -1,0 +1,18 @@
+{
+  "model_name": "PPO-Filtered",
+  "threshold": 0.1,
+  "metrics": {
+    "rmse": 0.3287399803579945,
+    "mae": 0.2057188224825706,
+    "directional_accuracy": 0.29432375613174494,
+    "total_pnl": 0.0,
+    "num_trades": 0,
+    "win_rate": 0.0,
+    "sharpe_ratio": 0.0,
+    "sharpe_per_trade": 0.0
+  },
+  "n_train_rows": 6802,
+  "n_test_rows": 1673,
+  "n_features": 31,
+  "pnl_series": []
+}

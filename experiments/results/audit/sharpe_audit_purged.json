@@ -1,0 +1,67 @@
+{
+  "audit": "sharpe_purged",
+  "tier": 1,
+  "ran_at": "2026-04-26T15:11:46.270324+00:00",
+  "verdict": "CORRECTED",
+  "split_type": "pair_stratified_80_20",
+  "purged_headline_input": "experiments/results/canonical_purged/headline.json",
+  "leaky_audit_input": "experiments/results/audit/sharpe_audit.json",
+  "model_audited": "linear_regression",
+  "per_trade_sharpe_recomputed": 0.5156721005698337,
+  "per_trade_sharpe_purged_headline": 0.515875241054597,
+  "per_trade_sharpe_drift_vs_purged_headline": 0.00020314048476333113,
+  "per_pair_sharpe_naive": 0.8136497233950362,
+  "per_pair_sharpe_naive_ci_95": [
+    0.6998413858000971,
+    1.0669441234530017
+  ],
+  "per_pair_sharpe_corr_corrected": 0.8136497233950362,
+  "avg_pairwise_corr": -0.19859768580012363,
+  "n_pairs_compared": 89,
+  "n_eff": 29.0,
+  "annualization": {
+    "n_pairs": 29,
+    "test_span_days": 87.83,
+    "pairs_per_year": 120.51,
+    "annualization_factor": 10.9778,
+    "formula": "annualized_sharpe = per_pair_sharpe_naive * sqrt(pairs_per_year)"
+  },
+  "per_pair_sharpe_annualized_naive": 8.932083933486028,
+  "per_pair_sharpe_annualized_corrected": 8.932083933486028,
+  "comparison": {
+    "canonical_sharpe_per_trade": 0.500716001685626,
+    "purged_sharpe_per_trade": 0.5156721005698337,
+    "delta_per_trade": 0.01495609888420768,
+    "drift_pct_per_trade": 2.9869424651616887,
+    "canonical_sharpe_per_pair_naive": 0.780852099060539,
+    "purged_sharpe_per_pair_naive": 0.8136497233950362,
+    "delta_per_pair_naive": 0.03279762433449718,
+    "drift_pct_per_pair_naive": 4.2002351500311965,
+    "canonical_sharpe_per_pair_corrected": 0.29551866792107984,
+    "purged_sharpe_per_pair_corrected": 0.8136497233950362,
+    "delta_per_pair_corrected": 0.5181310554739563,
+    "drift_pct_per_pair_corrected": 175.32938244440334,
+    "canonical_total_pnl": 232.66859274098664,
+    "purged_total_pnl": 199.63217000668266,
+    "delta_total_pnl": -33.03642273430398,
+    "drift_pct_total_pnl": -14.198918016872641,
+    "canonical_n_pairs": 461,
+    "purged_n_pairs": 29,
+    "interpretation": "Purged corrected Sharpe is 275.3% of leaky corrected Sharpe (0.8136 vs 0.2955); -175.3% of apparent edge attributable to leakage (positive = leakage inflated; negative = leakage masked real edge). Leaky-canonical avg pairwise correlation was 0.0418 on N=461 contemporaneous-day pair-pairs; purged avg pairwise correlation is -0.1986 on N=89."
+  },
+  "verdict_logic": {
+    "PASS": "corrected > 0.5 AND CI_lower > 0.0 AND |drift_pct| < 50%",
+    "CORRECTED": "corrected > 0.0 AND CI_lower > -0.2",
+    "FAILED": "otherwise (statistically indistinguishable from zero)"
+  },
+  "assumptions": [
+    "Purged split is pair-atomic by construction (see data/processed/purged_split/split_metadata.json) \u2014 every pair appears entirely in train OR entirely in test, never both.",
+    "Per-pair returns are stationary (no regime change within purged test window).",
+    "Pair-correlation effective-sample correction follows Bailey-Lopez de Prado (2012) framework: n_eff = N / (1 + (N-1) * avg_corr); sharpe_corrected = sharpe_naive * sqrt(n_eff/N).",
+    "Annualization uses pairs_per_year = 120.51, derived from test_span_days = 87.83 and N_pairs = 29. Assumes pair-lifecycle distribution in purged test window is representative of annual operation (likely violated; flag for paper \u00a76.4).",
+    "Bootstrap CI uses simple resample-with-replacement (10,000 resamples). Does NOT correct for autocorrelation in per-pair returns.",
+    "LR is the headline model audited (per Phase 17 conclusion: LR wins 4 of 5 metrics in canonical/headline.json). XGBoost purged numbers are in canonical_purged/headline.json but are not the load-bearing audit target.",
+    "Comparison delta interpretation: NEGATIVE drift means the leakage correction reduced the metric (expected direction for inflated metrics); POSITIVE drift means the leakage correction increased it (suggests the leakage was masking real edge OR the purged test set is a more favorable sample)."
+  ],
+  "n_bootstrap": 10000
+}

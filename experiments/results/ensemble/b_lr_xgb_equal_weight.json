@@ -1,0 +1,35 @@
+{
+  "model_name": "(b) LR + XGB equal-weight",
+  "metrics": {
+    "filtered": {
+      "num_trades": 1489,
+      "pnl": 202.13509130951604,
+      "win_rate": 0.5090664875755541,
+      "sharpe_per_trade": 0.454778603688866
+    },
+    "unfiltered": {
+      "num_trades": 1564,
+      "pnl": 204.08584363453772,
+      "win_rate": 0.5083120204603581,
+      "sharpe_per_trade": 0.43652489088335655
+    },
+    "rejected": {
+      "num_trades": 75,
+      "pnl": 1.9507523250216758,
+      "win_rate": 0.49333333333333335,
+      "sharpe_per_trade": 0.08970631574106146
+    },
+    "rejection_rate": 0.048,
+    "flag_rejected_profitable": true
+  },
+  "timestamp": "2026-04-23T15:55:58.471037+00:00",
+  "members": [
+    "LinearRegressionPredictor",
+    "XGBoostPredictor"
+  ],
+  "weights": [
+    0.5,
+    0.5
+  ],
+  "concordance_mode": "strict"
+}

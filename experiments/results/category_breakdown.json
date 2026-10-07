@@ -1,0 +1,118 @@
+{
+  "linear_regression": {
+    "_overall": {
+      "num_trades": 1549,
+      "pnl": 201.68859274098665,
+      "avg_pnl": 0.13020567639831288,
+      "win_rate": 0.5054874112330536,
+      "sharpe_per_trade": 0.4340452854128488
+    },
+    "crypto": {
+      "num_trades": 292,
+      "pnl": 41.74907898990679,
+      "avg_pnl": 0.1429762979106397,
+      "win_rate": 0.571917808219178,
+      "sharpe_per_trade": 0.42939349737617805
+    },
+    "employment": {
+      "num_trades": 204,
+      "pnl": 20.022436593004635,
+      "avg_pnl": 0.09814919898531684,
+      "win_rate": 0.47058823529411764,
+      "sharpe_per_trade": 0.40707238866853723
+    },
+    "fed_rates": {
+      "num_trades": 10,
+      "pnl": 1.9014416879592124,
+      "avg_pnl": 0.19014416879592125,
+      "win_rate": 0.5,
+      "sharpe_per_trade": 0.46832637963461654
+    },
+    "gdp": {
+      "num_trades": 20,
+      "pnl": 0.9146508566273152,
+      "avg_pnl": 0.045732542831365755,
+      "win_rate": 0.15,
+      "sharpe_per_trade": 0.17065089297074543
+    },
+    "inflation": {
+      "num_trades": 616,
+      "pnl": 89.3929190417866,
+      "avg_pnl": 0.1451183750678354,
+      "win_rate": 0.6266233766233766,
+      "sharpe_per_trade": 0.5183896674748487
+    },
+    "politics_election": {
+      "num_trades": 129,
+      "pnl": 17.94715261436241,
+      "avg_pnl": 0.13912521406482486,
+      "win_rate": 0.27906976744186046,
+      "sharpe_per_trade": 0.3929422732950372
+    },
+    "politics_policy": {
+      "num_trades": 278,
+      "pnl": 29.76091295733969,
+      "avg_pnl": 0.10705364373143773,
+      "win_rate": 0.3237410071942446,
+      "sharpe_per_trade": 0.3402779259836956
+    }
+  },
+  "xgboost": {
+    "_overall": {
+      "num_trades": 1567,
+      "pnl": 208.85470267657104,
+      "avg_pnl": 0.13328315422882644,
+      "win_rate": 0.5092533503509892,
+      "sharpe_per_trade": 0.4492052742479705
+    },
+    "crypto": {
+      "num_trades": 296,
+      "pnl": 48.1373055072471,
+      "avg_pnl": 0.16262603211907803,
+      "win_rate": 0.6047297297297297,
+      "sharpe_per_trade": 0.5139335147132224
+    },
+    "employment": {
+      "num_trades": 203,
+      "pnl": 19.939842066332695,
+      "avg_pnl": 0.09822582298686057,
+      "win_rate": 0.4630541871921182,
+      "sharpe_per_trade": 0.4081475298813907
+    },
+    "fed_rates": {
+      "num_trades": 10,
+      "pnl": 1.9014416879592124,
+      "avg_pnl": 0.19014416879592125,
+      "win_rate": 0.5,
+      "sharpe_per_trade": 0.46832637963461654
+    },
+    "gdp": {
+      "num_trades": 20,
+      "pnl": 0.9146508566273152,
+      "avg_pnl": 0.045732542831365755,
+      "win_rate": 0.15,
+      "sharpe_per_trade": 0.17065089297074543
+    },
+    "inflation": {
+      "num_trades": 632,
+      "pnl": 89.38073076828809,
+      "avg_pnl": 0.14142520691184823,
+      "win_rate": 0.6170886075949367,
+      "sharpe_per_trade": 0.5054675261063316
+    },
+    "politics_election": {
+      "num_trades": 128,
+      "pnl": 17.55064367388613,
+      "avg_pnl": 0.13711440370223538,
+      "win_rate": 0.265625,
+      "sharpe_per_trade": 0.38751711910930425
+    },
+    "politics_policy": {
+      "num_trades": 278,
+      "pnl": 31.03008811623049,
+      "avg_pnl": 0.1116190220008291,
+      "win_rate": 0.3345323741007194,
+      "sharpe_per_trade": 0.3534941709798583
+    }
+  }
+}

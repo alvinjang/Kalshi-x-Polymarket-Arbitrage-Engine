@@ -1,0 +1,24 @@
+==============================================================================================================
+PER-CATEGORY MODEL PERFORMANCE BREAKDOWN
+==============================================================================================================
+
+Category             linear_regression  xgboost        
+-------------------------------------------------------
+_overall             $+201.69 WR=51% n=1549  $+208.85 WR=51% n=1567
+crypto               $+41.75 WR=57% n= 292   $+48.14 WR=60% n= 296 
+employment           $+20.02 WR=47% n= 204   $+19.94 WR=46% n= 203 
+fed_rates            $ +1.90 WR=50% n=  10   $ +1.90 WR=50% n=  10 
+gdp                  $ +0.91 WR=15% n=  20   $ +0.91 WR=15% n=  20 
+inflation            $+89.39 WR=63% n= 616   $+89.38 WR=62% n= 632 
+politics_election    $+17.95 WR=28% n= 129   $+17.55 WR=27% n= 128 
+politics_policy      $+29.76 WR=32% n= 278   $+31.03 WR=33% n= 278 
+
+Best model per category (by P&L, min_trades filter applied):
+  _overall              winner: xgboost               P&L=$+208.85
+  crypto                winner: xgboost               P&L=$+48.14
+  employment            winner: linear_regression     P&L=$+20.02
+  fed_rates             winner: linear_regression     P&L=$+1.90
+  gdp                   winner: linear_regression     P&L=$+0.91
+  inflation             winner: linear_regression     P&L=$+89.39
+  politics_election     winner: linear_regression     P&L=$+17.95
+  politics_policy       winner: xgboost               P&L=$+31.03

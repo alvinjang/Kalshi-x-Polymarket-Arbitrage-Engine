@@ -1,0 +1,4307 @@
+{
+  "live_0000": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-05-01T15:00:00",
+    "days_remaining": 22.69,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXPRESNOMD-28-AOC"
+  },
+  "live_0001": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-JSTE"
+  },
+  "live_0002": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-JTAL"
+  },
+  "live_0003": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-AB"
+  },
+  "live_0004": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-JP"
+  },
+  "live_0005": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-SAS"
+  },
+  "live_0006": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-RKHA"
+  },
+  "live_0007": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-BOBA"
+  },
+  "live_0008": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-MR"
+  },
+  "live_0009": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-EM"
+  },
+  "live_0010": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-BORO"
+  },
+  "live_0011": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-MPEN"
+  },
+  "live_0012": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-EC"
+  },
+  "live_0013": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-PY"
+  },
+  "live_0014": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-15T23:59:00",
+    "days_remaining": 37.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTRUMPCHINA-26-MAY15"
+  },
+  "live_0015": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-08T23:59:00",
+    "days_remaining": 30.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTRUMPCHINA-26-MAY08"
+  },
+  "live_0016": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-KR"
+  },
+  "live_0017": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-MA"
+  },
+  "live_0018": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-SAS"
+  },
+  "live_0019": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-US"
+  },
+  "live_0020": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-BR"
+  },
+  "live_0021": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-NL"
+  },
+  "live_0022": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-CMUR"
+  },
+  "live_0023": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-CH"
+  },
+  "live_0024": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTRUMPCHINA-26-JUN01"
+  },
+  "live_0025": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-CHA"
+  },
+  "live_0026": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-07-01T23:59:00",
+    "days_remaining": 84.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTRUMPCHINA-26-JUL01"
+  },
+  "live_0027": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-SC"
+  },
+  "live_0028": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-NO"
+  },
+  "live_0029": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-FR"
+  },
+  "live_0030": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-ES"
+  },
+  "live_0031": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2029-01-01T04:59:00",
+    "days_remaining": 998.27,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDCHAIRCONFIRM-JSHE"
+  },
+  "live_0032": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-JP"
+  },
+  "live_0033": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-AR"
+  },
+  "live_0034": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-GB"
+  },
+  "live_0035": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-AOC"
+  },
+  "live_0036": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-PHI"
+  },
+  "live_0037": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMR-28-MR"
+  },
+  "live_0038": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUCL-26-ATM"
+  },
+  "live_0039": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXFEDDECISION-26APR-C25"
+  },
+  "live_0040": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-AB"
+  },
+  "live_0041": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-GN"
+  },
+  "live_0042": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-04-30T23:59:00",
+    "days_remaining": 387.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27APR-C26"
+  },
+  "live_0043": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXAOCSENATE-28"
+  },
+  "live_0044": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRPRES-26-FBOL"
+  },
+  "live_0045": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGA-26-BAR"
+  },
+  "live_0046": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGATOP4-26-ATM"
+  },
+  "live_0047": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSENATENYD-28-AOC"
+  },
+  "live_0048": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIACHAMBER-26-GOVT"
+  },
+  "live_0049": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIACHAMBER-26-OPP"
+  },
+  "live_0050": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRPRES-26-RSAN"
+  },
+  "live_0051": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-ZMAM"
+  },
+  "live_0052": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-31T23:59:00",
+    "days_remaining": 114.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26JUL-C25"
+  },
+  "live_0053": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRPRES-26-TDF"
+  },
+  "live_0054": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXFEDDECISION-26JUN-C25"
+  },
+  "live_0055": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXFEDDECISION-26JUN-C26"
+  },
+  "live_0056": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRPRES-26-RCAI"
+  },
+  "live_0057": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-31T23:59:00",
+    "days_remaining": 298.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JAN-C25"
+  },
+  "live_0058": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-31T23:59:00",
+    "days_remaining": 298.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JAN-C26"
+  },
+  "live_0059": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-07-31T23:59:00",
+    "days_remaining": 479.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JUL-C25"
+  },
+  "live_0060": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-03-31T23:59:00",
+    "days_remaining": 357.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27MAR-C25"
+  },
+  "live_0061": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26OCT-C25"
+  },
+  "live_0062": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-03-31T23:59:00",
+    "days_remaining": 357.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27MAR-C26"
+  },
+  "live_0063": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-01-31T23:59:00",
+    "days_remaining": 663.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-28JAN-C25"
+  },
+  "live_0064": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAEAST-26-CHA"
+  },
+  "live_0065": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-01-31T23:59:00",
+    "days_remaining": 663.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-28JAN-C26"
+  },
+  "live_0066": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-HOU"
+  },
+  "live_0067": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRPRES-26-AREB"
+  },
+  "live_0068": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-10-31T23:59:00",
+    "days_remaining": 571.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27OCT-C26"
+  },
+  "live_0069": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-06-30T23:59:00",
+    "days_remaining": 448.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JUN-C25"
+  },
+  "live_0070": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-06-30T23:59:00",
+    "days_remaining": 448.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JUN-C26"
+  },
+  "live_0071": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-AUS"
+  },
+  "live_0072": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-BUL"
+  },
+  "live_0073": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-CZE"
+  },
+  "live_0074": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-DEN"
+  },
+  "live_0075": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-FIN"
+  },
+  "live_0076": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-FRA"
+  },
+  "live_0077": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-GRE"
+  },
+  "live_0078": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-ISR"
+  },
+  "live_0079": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-ITA"
+  },
+  "live_0080": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-ROM"
+  },
+  "live_0081": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-SWE"
+  },
+  "live_0082": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISION-26-UKR"
+  },
+  "live_0083": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-RDS"
+  },
+  "live_0084": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGA-26-RMA"
+  },
+  "live_0085": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXFEDDECISION-26APR-H0"
+  },
+  "live_0086": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-VR"
+  },
+  "live_0087": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAWEST-26-SAS"
+  },
+  "live_0088": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-MO"
+  },
+  "live_0089": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRPRES-26-FH"
+  },
+  "live_0090": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-04-30T23:59:00",
+    "days_remaining": 387.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27APR-H0"
+  },
+  "live_0091": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-TC"
+  },
+  "live_0092": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26DEC-C25"
+  },
+  "live_0093": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T125"
+  },
+  "live_0094": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-LAL"
+  },
+  "live_0095": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T105"
+  },
+  "live_0096": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPARTY-2028-D"
+  },
+  "live_0097": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T200"
+  },
+  "live_0098": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T150"
+  },
+  "live_0099": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIAPRES-26-ICAS"
+  },
+  "live_0100": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRPRES-26-RZEM"
+  },
+  "live_0101": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T115"
+  },
+  "live_0102": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-BS"
+  },
+  "live_0103": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-09-01T23:59:00",
+    "days_remaining": 877.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXAMERICAPARTY2028-28SEP01"
+  },
+  "live_0104": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXFEDDECISION-26JUN-H25"
+  },
+  "live_0105": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T120"
+  },
+  "live_0106": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T160"
+  },
+  "live_0107": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-JOSS"
+  },
+  "live_0108": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T180"
+  },
+  "live_0109": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXTRUMPCOUNTRIES-27JAN01-CHI"
+  },
+  "live_0110": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T130"
+  },
+  "live_0111": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26APR30-7500000"
+  },
+  "live_0112": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESENDORSEMUSKD-28"
+  },
+  "live_0113": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26OCT-H25"
+  },
+  "live_0114": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAF-26-SASDET"
+  },
+  "live_0115": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-10-31T23:59:00",
+    "days_remaining": 571.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27OCT-H25"
+  },
+  "live_0116": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-CLE"
+  },
+  "live_0117": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T100"
+  },
+  "live_0118": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-07-31T23:59:00",
+    "days_remaining": 479.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JUL-H25"
+  },
+  "live_0119": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-DET"
+  },
+  "live_0120": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-07-31T23:59:00",
+    "days_remaining": 479.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JUL-H26"
+  },
+  "live_0121": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-10-31T23:59:00",
+    "days_remaining": 571.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27OCT-H26"
+  },
+  "live_0122": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-03-31T23:59:00",
+    "days_remaining": 357.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27MAR-H26"
+  },
+  "live_0123": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-03-31T23:59:00",
+    "days_remaining": 357.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27MAR-H25"
+  },
+  "live_0124": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-12-31T23:59:00",
+    "days_remaining": 632.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27DEC-C25"
+  },
+  "live_0125": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-31T23:59:00",
+    "days_remaining": 298.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JAN-H25"
+  },
+  "live_0126": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T140"
+  },
+  "live_0127": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-PHEG"
+  },
+  "live_0128": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-31T23:59:00",
+    "days_remaining": 298.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JAN-H26"
+  },
+  "live_0129": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUCL-26-BAR"
+  },
+  "live_0130": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T135"
+  },
+  "live_0131": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWTIMAX-26DEC31-T110"
+  },
+  "live_0132": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-09-30T23:59:00",
+    "days_remaining": 175.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26SEP-C26"
+  },
+  "live_0133": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-GW"
+  },
+  "live_0134": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-09-30T23:59:00",
+    "days_remaining": 175.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26SEP-C25"
+  },
+  "live_0135": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-01-31T23:59:00",
+    "days_remaining": 663.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-28JAN-H26"
+  },
+  "live_0136": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T105.99"
+  },
+  "live_0137": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-01-31T23:59:00",
+    "days_remaining": 663.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-28JAN-H25"
+  },
+  "live_0138": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIAPRES-26-PVAL"
+  },
+  "live_0139": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-JBP"
+  },
+  "live_0140": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26APR30-7000000"
+  },
+  "live_0141": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-DEN"
+  },
+  "live_0142": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T115.99"
+  },
+  "live_0143": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAF-26-SASCLE"
+  },
+  "live_0144": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26APR30-8000000"
+  },
+  "live_0145": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T107.99"
+  },
+  "live_0146": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-MIN"
+  },
+  "live_0147": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26APR30-8500000"
+  },
+  "live_0148": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-09-30T23:59:00",
+    "days_remaining": 175.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26SEP-H25"
+  },
+  "live_0149": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINUCL-26-RMAATM"
+  },
+  "live_0150": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T114.99"
+  },
+  "live_0151": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAF-26-SASNYK"
+  },
+  "live_0152": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIAPRESR1-26MAY31-ICAS"
+  },
+  "live_0153": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T115.99"
+  },
+  "live_0154": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T105.99"
+  },
+  "live_0155": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAEAST-26-PHI"
+  },
+  "live_0156": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T118.99"
+  },
+  "live_0157": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26APR30-8250000"
+  },
+  "live_0158": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-DE"
+  },
+  "live_0159": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T109.99"
+  },
+  "live_0160": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-UY"
+  },
+  "live_0161": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T118.99"
+  },
+  "live_0162": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-09-30T23:59:00",
+    "days_remaining": 540.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27SEP-C25"
+  },
+  "live_0163": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T111.99"
+  },
+  "live_0164": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T113.99"
+  },
+  "live_0165": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIAPRES-26-AESP"
+  },
+  "live_0166": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26APR30-7750000"
+  },
+  "live_0167": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26OCT-H0"
+  },
+  "live_0168": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-JS"
+  },
+  "live_0169": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T111.99"
+  },
+  "live_0170": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T104.99"
+  },
+  "live_0171": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T116.99"
+  },
+  "live_0172": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T114.99"
+  },
+  "live_0173": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T108.99"
+  },
+  "live_0174": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-REMA"
+  },
+  "live_0175": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26APR30-7250000"
+  },
+  "live_0176": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-JAM"
+  },
+  "live_0177": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T107.99"
+  },
+  "live_0178": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-31T23:59:00",
+    "days_remaining": 114.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26JUL-H0"
+  },
+  "live_0179": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T117.99"
+  },
+  "live_0180": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T108.99"
+  },
+  "live_0181": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-T118.99"
+  },
+  "live_0182": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T110.99"
+  },
+  "live_0183": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T106.99"
+  },
+  "live_0184": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-10-31T23:59:00",
+    "days_remaining": 571.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27OCT-H0"
+  },
+  "live_0185": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-09-30T23:59:00",
+    "days_remaining": 540.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27SEP-H25"
+  },
+  "live_0186": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRPRES-26-LULA"
+  },
+  "live_0187": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T104.99"
+  },
+  "live_0188": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-09-30T23:59:00",
+    "days_remaining": 540.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27SEP-H26"
+  },
+  "live_0189": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINUCL-26-BMUATM"
+  },
+  "live_0190": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T113.99"
+  },
+  "live_0191": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26DEC-H25"
+  },
+  "live_0192": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T116.99"
+  },
+  "live_0193": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T110.99"
+  },
+  "live_0194": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T109.99"
+  },
+  "live_0195": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-TW"
+  },
+  "live_0196": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-T106.00"
+  },
+  "live_0197": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXFEDDECISION-26JUN-H0"
+  },
+  "live_0198": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-SE"
+  },
+  "live_0199": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-JF"
+  },
+  "live_0200": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-ESLO"
+  },
+  "live_0201": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T117.99"
+  },
+  "live_0202": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T106.99"
+  },
+  "live_0203": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-31T23:59:00",
+    "days_remaining": 298.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JAN-H0"
+  },
+  "live_0204": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR08-T112.99"
+  },
+  "live_0205": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-07T23:59:00",
+    "days_remaining": -0.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTI-26APR07-T112.99"
+  },
+  "live_0206": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-HCLI"
+  },
+  "live_0207": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-RC"
+  },
+  "live_0208": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-07-31T23:59:00",
+    "days_remaining": 479.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JUL-H0"
+  },
+  "live_0209": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIAPRESR1-26MAY31-PVAL"
+  },
+  "live_0210": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAF-26-SASBOS"
+  },
+  "live_0211": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B118.5"
+  },
+  "live_0212": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-12-31T23:59:00",
+    "days_remaining": 632.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27DEC-H26"
+  },
+  "live_0213": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESELECTIONOCCUR-28"
+  },
+  "live_0214": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B115.5"
+  },
+  "live_0215": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXF1-26-CL"
+  },
+  "live_0216": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-CO"
+  },
+  "live_0217": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINUCL-26-LFCATM"
+  },
+  "live_0218": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIAPRES1R-26MAY31"
+  },
+  "live_0219": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIAPRESR1-26MAY31-AESP"
+  },
+  "live_0220": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-12-31T23:59:00",
+    "days_remaining": 632.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27DEC-H25"
+  },
+  "live_0221": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUCL-26-RMA"
+  },
+  "live_0222": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26APR30-8750000"
+  },
+  "live_0223": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-ETRU"
+  },
+  "live_0224": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-05-01T23:59:00",
+    "days_remaining": 23.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXNEXTHUNGARYPM-26MAY01-PMAG"
+  },
+  "live_0225": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-03-31T23:59:00",
+    "days_remaining": 357.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27MAR-H0"
+  },
+  "live_0226": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-PB"
+  },
+  "live_0227": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-06-30T23:59:00",
+    "days_remaining": 448.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27JUN-H0"
+  },
+  "live_0228": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2045-01-29T15:00:00",
+    "days_remaining": 6870.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPERSONPRESMAM-45"
+  },
+  "live_0229": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-BOS"
+  },
+  "live_0230": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B114.5"
+  },
+  "live_0231": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGARELEGATION-26-SEV"
+  },
+  "live_0232": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-MK"
+  },
+  "live_0233": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B113.5"
+  },
+  "live_0234": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-GN"
+  },
+  "live_0235": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-01-31T23:59:00",
+    "days_remaining": 663.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-28JAN-H0"
+  },
+  "live_0236": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-NYK"
+  },
+  "live_0237": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISIONPARTICIPANTS-26-PRT"
+  },
+  "live_0238": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMINMON-BTC-26APR30-6500000"
+  },
+  "live_0239": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-RGAL"
+  },
+  "live_0240": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMINMON-BTC-26APR30-5500000"
+  },
+  "live_0241": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B108.5"
+  },
+  "live_0242": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMINMON-BTC-26APR30-5750000"
+  },
+  "live_0243": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-KH"
+  },
+  "live_0244": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B107.5"
+  },
+  "live_0245": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B117.5"
+  },
+  "live_0246": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXCOLOMBIASENATE-26-GOVT"
+  },
+  "live_0247": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B111.5"
+  },
+  "live_0248": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B116.5"
+  },
+  "live_0249": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMINMON-BTC-26APR30-5000000"
+  },
+  "live_0250": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGATOP4-26-BAR"
+  },
+  "live_0251": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISIONPARTICIPANTS-26-KAZ"
+  },
+  "live_0252": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-PL"
+  },
+  "live_0253": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B106.5"
+  },
+  "live_0254": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMINMON-BTC-26APR30-5250000"
+  },
+  "live_0255": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-05-07T23:59:00",
+    "days_remaining": 29.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXSCOTPARLIAMENT-26MAY07-LAB"
+  },
+  "live_0256": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMR-28-RDS"
+  },
+  "live_0257": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-09-30T23:59:00",
+    "days_remaining": 175.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26SEP-H0"
+  },
+  "live_0258": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T23:59:00",
+    "days_remaining": 944.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXDECLAREPRESFIRSTD-28NOV07-AOCA"
+  },
+  "live_0259": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-05-01T23:59:00",
+    "days_remaining": 23.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXNEXTHUNGARYPM-26MAY01-VORB"
+  },
+  "live_0260": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-SN"
+  },
+  "live_0261": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-DJOH"
+  },
+  "live_0262": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-RW"
+  },
+  "live_0263": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B112.5"
+  },
+  "live_0264": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUCL-26-BMU"
+  },
+  "live_0265": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-26DEC-H0"
+  },
+  "live_0266": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISIONPARTICIPANTS-26-ISL"
+  },
+  "live_0267": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMINMON-BTC-26APR30-4750000"
+  },
+  "live_0268": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGATOP4-26-RMA"
+  },
+  "live_0269": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B110.5"
+  },
+  "live_0270": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-05-07T23:59:00",
+    "days_remaining": 29.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXSCOTPARLIAMENT-26MAY07-REF"
+  },
+  "live_0271": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBA-26-OKC"
+  },
+  "live_0272": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-09-30T23:59:00",
+    "days_remaining": 540.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27SEP-H0"
+  },
+  "live_0273": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXFEDCOMBO-26APR-0-0"
+  },
+  "live_0274": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-10T23:59:00",
+    "days_remaining": 2.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXWTIW-26APR10-B109.5"
+  },
+  "live_0275": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-PT"
+  },
+  "live_0276": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-HR"
+  },
+  "live_0277": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXFEDCOMBO-26APR-0-T0"
+  },
+  "live_0278": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXF1-26-OP"
+  },
+  "live_0279": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGATOP4-26-VIL"
+  },
+  "live_0280": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-AKLO"
+  },
+  "live_0281": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-IR"
+  },
+  "live_0282": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMINMON-BTC-26APR30-6250000"
+  },
+  "live_0283": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMINMON-BTC-26APR30-6000000"
+  },
+  "live_0284": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-04T23:59:00",
+    "days_remaining": 179.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRAZILPRES1R-26OCT04"
+  },
+  "live_0285": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-05-07T23:59:00",
+    "days_remaining": 29.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXSCOTPARLIAMENT-26MAY07-SNP"
+  },
+  "live_0286": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-MX"
+  },
+  "live_0287": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-02-15T23:59:00",
+    "days_remaining": 313.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSB-27-NE"
+  },
+  "live_0288": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXNCPRIMARY-03D26-RJR."
+  },
+  "live_0289": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUCL-26-SPO"
+  },
+  "live_0290": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXF1-26-MV"
+  },
+  "live_0291": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISIONPARTICIPANTS-26-HRV"
+  },
+  "live_0292": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-EGY"
+  },
+  "live_0293": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMR-28-TC"
+  },
+  "live_0294": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMUSKPRIMARY-26-MJOH"
+  },
+  "live_0295": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMUSKPRIMARY-26-JTHU"
+  },
+  "live_0296": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMUSKPRIMARY-26-KCRA"
+  },
+  "live_0297": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMUSKPRIMARY-26-TCOL"
+  },
+  "live_0298": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMUSKPRIMARY-26-SDAI"
+  },
+  "live_0299": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-12-31T23:59:00",
+    "days_remaining": 632.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDDECISION-27DEC-H0"
+  },
+  "live_0300": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-AU"
+  },
+  "live_0301": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXLARGECUT-26"
+  },
+  "live_0302": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-DJT"
+  },
+  "live_0303": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-BE"
+  },
+  "live_0304": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAEAST-26-TOR"
+  },
+  "live_0305": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-GNEWS"
+  },
+  "live_0306": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-AOCA"
+  },
+  "live_0307": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-PBUT"
+  },
+  "live_0308": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-JSHA"
+  },
+  "live_0309": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-KHAR"
+  },
+  "live_0310": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-WMOO"
+  },
+  "live_0311": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-SSMI"
+  },
+  "live_0312": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-GWHI"
+  },
+  "live_0313": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-ABES"
+  },
+  "live_0314": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-JPRI"
+  },
+  "live_0315": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-JVAN"
+  },
+  "live_0316": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-TGAB"
+  },
+  "live_0317": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-DTRU"
+  },
+  "live_0318": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-MRUB"
+  },
+  "live_0319": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-GYOU"
+  },
+  "live_0320": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-DTRUJR"
+  },
+  "live_0321": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-NHAL"
+  },
+  "live_0322": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-RDES"
+  },
+  "live_0323": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-VRAM"
+  },
+  "live_0324": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-GABB"
+  },
+  "live_0325": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-TWAL"
+  },
+  "live_0326": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-JDIM"
+  },
+  "live_0327": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-JOSS"
+  },
+  "live_0328": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-MKEL"
+  },
+  "live_0329": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPERSON-28-TCAR"
+  },
+  "live_0330": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESPARTY-2028-R"
+  },
+  "live_0331": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGARELEGATION-26-ALA"
+  },
+  "live_0332": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGARELEGATION-26-ELC"
+  },
+  "live_0333": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUCL-26-ARS"
+  },
+  "live_0334": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-CA"
+  },
+  "live_0335": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXCOPADELREY-26-ATM"
+  },
+  "live_0336": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-TCOT"
+  },
+  "live_0337": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRBALLOT-26-FBOL"
+  },
+  "live_0338": {
+    "tier": "DAILY",
+    "resolution_date": "2026-03-31T23:59:00",
+    "days_remaining": -7.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26MAR31-7500000"
+  },
+  "live_0339": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-ES"
+  },
+  "live_0340": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXF1-26-KA"
+  },
+  "live_0341": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-02-15T23:59:00",
+    "days_remaining": 313.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSB-27-PHI"
+  },
+  "live_0342": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26B-BIH"
+  },
+  "live_0343": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXF1-26-LH"
+  },
+  "live_0344": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGARELEGATION-26-LEV"
+  },
+  "live_0345": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMR-28-DJT"
+  },
+  "live_0346": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXF1-26-LN"
+  },
+  "live_0347": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAEAST-26-ORL"
+  },
+  "live_0348": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-UZB"
+  },
+  "live_0349": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-AT"
+  },
+  "live_0350": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-12T23:59:00",
+    "days_remaining": 4.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXHUNGARYPARLIPARTY-26APR12-TISZ"
+  },
+  "live_0351": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-MC"
+  },
+  "live_0352": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSENATEPAD-28-BBOY"
+  },
+  "live_0353": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-JS"
+  },
+  "live_0354": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINUCL-26-BMUBAR"
+  },
+  "live_0355": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-HBID"
+  },
+  "live_0356": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-GR"
+  },
+  "live_0357": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUCL-26-PSG"
+  },
+  "live_0358": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCCONGO-26"
+  },
+  "live_0359": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRBALLOT-26-TFRI"
+  },
+  "live_0360": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-STE"
+  },
+  "live_0361": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGARELEGATION-26-OVI"
+  },
+  "live_0362": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXORPRIMARY-04D26-MSMI"
+  },
+  "live_0363": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-SAS-25-T20"
+  },
+  "live_0364": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-SAS-25-T60"
+  },
+  "live_0365": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-DJTJR"
+  },
+  "live_0366": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAEAST-26-ATL"
+  },
+  "live_0367": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-01-01T23:59:00",
+    "days_remaining": 633.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSENATEDEMLEAD-28JAN01-CMUR"
+  },
+  "live_0368": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISIONTELEV-26-GRE"
+  },
+  "live_0369": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMR-28-DJTJR"
+  },
+  "live_0370": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-CBOOK"
+  },
+  "live_0371": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-HBID"
+  },
+  "live_0372": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-GNEW"
+  },
+  "live_0373": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-JSHA"
+  },
+  "live_0374": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-PBUT"
+  },
+  "live_0375": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-GWHI"
+  },
+  "live_0376": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-WMOO"
+  },
+  "live_0377": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-AOC"
+  },
+  "live_0378": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-KHAR"
+  },
+  "live_0379": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-SAS"
+  },
+  "live_0380": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-ABES"
+  },
+  "live_0381": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-JPRI"
+  },
+  "live_0382": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-JFET"
+  },
+  "live_0383": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-MOBA"
+  },
+  "live_0384": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-MCUB"
+  },
+  "live_0385": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-RCOO"
+  },
+  "live_0386": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-RWAR"
+  },
+  "live_0387": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-TWAL"
+  },
+  "live_0388": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-MKEL"
+  },
+  "live_0389": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-JPOL"
+  },
+  "live_0390": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-JSTE"
+  },
+  "live_0391": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-REMA"
+  },
+  "live_0392": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-BOBA"
+  },
+  "live_0393": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-HCLI"
+  },
+  "live_0394": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-DPHI"
+  },
+  "live_0395": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-PMUR"
+  },
+  "live_0396": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-CHOL"
+  },
+  "live_0397": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-ESLO"
+  },
+  "live_0398": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-ASPA"
+  },
+  "live_0399": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-JOSS"
+  },
+  "live_0400": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-CMUR"
+  },
+  "live_0401": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-RGAL"
+  },
+  "live_0402": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-RKHA"
+  },
+  "live_0403": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KX2028DRUN-28-MSHE"
+  },
+  "live_0404": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINUCL-26-RMABAR"
+  },
+  "live_0405": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCMAX100-26-DEC"
+  },
+  "live_0406": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-GPLA"
+  },
+  "live_0407": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-SAS-25-T25"
+  },
+  "live_0408": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-EKIR"
+  },
+  "live_0409": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-CIV"
+  },
+  "live_0410": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-12T23:59:00",
+    "days_remaining": 4.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXHUNGARYPARLIPARTY-26APR12-FIDE"
+  },
+  "live_0411": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T23:59:00",
+    "days_remaining": 944.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXDECLAREPRESFIRSTD-28NOV07-ABES"
+  },
+  "live_0412": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26F-TUN"
+  },
+  "live_0413": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAWEST-26-HOU"
+  },
+  "live_0414": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMR-28-BD"
+  },
+  "live_0415": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGARELEGATION-26-VCF"
+  },
+  "live_0416": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-SAS-25-T30"
+  },
+  "live_0417": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXBTCMAX100-26-JUNE"
+  },
+  "live_0418": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-JDV"
+  },
+  "live_0419": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-CBOO"
+  },
+  "live_0420": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-09-30T23:59:00",
+    "days_remaining": 175.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCMAX100-26-SEP"
+  },
+  "live_0421": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCMINY-27JAN01-55000.00"
+  },
+  "live_0422": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRBALLOT-26-JB"
+  },
+  "live_0423": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-SAS-25-T50"
+  },
+  "live_0424": {
+    "tier": "DAILY",
+    "resolution_date": "2026-03-31T23:59:00",
+    "days_remaining": -7.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26MAR31-7000000"
+  },
+  "live_0425": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCROUND-26FINAL-ARG"
+  },
+  "live_0426": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGARELEGATION-26-GIR"
+  },
+  "live_0427": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-SAS-25-T40"
+  },
+  "live_0428": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-GY"
+  },
+  "live_0429": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-04T23:59:00",
+    "days_remaining": 179.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRAZILSENATE-26OCT04-PL"
+  },
+  "live_0430": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-SAS-25-T35"
+  },
+  "live_0431": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCMINY-27JAN01-40000.00"
+  },
+  "live_0432": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-SAS-25-T55"
+  },
+  "live_0433": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T23:59:00",
+    "days_remaining": 944.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXDECLAREPRESFIRSTD-28NOV07-GNEW"
+  },
+  "live_0434": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-05-07T23:59:00",
+    "days_remaining": 29.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXSCOTPARLIAMENT-26MAY07-GRN"
+  },
+  "live_0435": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAF-26-HOUDET"
+  },
+  "live_0436": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-WM"
+  },
+  "live_0437": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXELECTIRAN-27JAN01"
+  },
+  "live_0438": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXBTCMAX100-26-APR"
+  },
+  "live_0439": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-BD"
+  },
+  "live_0440": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26D-PAR"
+  },
+  "live_0441": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-EWAR"
+  },
+  "live_0442": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLIGAMX-26CLA-CDG"
+  },
+  "live_0443": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26C-MAR"
+  },
+  "live_0444": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-JBP"
+  },
+  "live_0445": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAEAST-26-CLE"
+  },
+  "live_0446": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAF-26-OKCPHI"
+  },
+  "live_0447": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-07T15:00:00",
+    "days_remaining": 943.69,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMD-28-AYAN"
+  },
+  "live_0448": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-14T23:59:00",
+    "days_remaining": 6.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXUCLGAME-26APR14ATMBAR-ATM"
+  },
+  "live_0449": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-14T23:59:00",
+    "days_remaining": 6.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXUCLGAME-26APR14ATMBAR-BAR"
+  },
+  "live_0450": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-14T23:59:00",
+    "days_remaining": 6.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXUCLGAME-26APR14ATMBAR-TIE"
+  },
+  "live_0451": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-04T23:59:00",
+    "days_remaining": -3.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXLALIGAGAME-26APR04ATMBAR-BAR"
+  },
+  "live_0452": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXBTCMAX100-26-MAY"
+  },
+  "live_0453": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCMINY-27JAN01-45000.00"
+  },
+  "live_0454": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26B-SUI"
+  },
+  "live_0455": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-GW"
+  },
+  "live_0456": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLALIGARELEGATION-26-MAL"
+  },
+  "live_0457": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCROUND-26SEMI-ECU"
+  },
+  "live_0458": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-JOSS"
+  },
+  "live_0459": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCMINY-27JAN01-50000.00"
+  },
+  "live_0460": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCMAXY-26DEC31-149999.99"
+  },
+  "live_0461": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLIGAMX-26CLA-TOL"
+  },
+  "live_0462": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCROUND-26FINAL-ESP"
+  },
+  "live_0463": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-KB"
+  },
+  "live_0464": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXNY7D-26-AREY"
+  },
+  "live_0465": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISIONPARTICIPANTS-26-BEL"
+  },
+  "live_0466": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-TMAS"
+  },
+  "live_0467": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUCL-26-LFC"
+  },
+  "live_0468": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-RPAU"
+  },
+  "live_0469": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINUCL-26-RMAARS"
+  },
+  "live_0470": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-SAS-25-T45"
+  },
+  "live_0471": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26J-DZA"
+  },
+  "live_0472": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAEAST-26-DET"
+  },
+  "live_0473": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXEUROVISIONPARTICIPANTS-26-MKD"
+  },
+  "live_0474": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26E-ECU"
+  },
+  "live_0475": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXRATECUT-26DEC31"
+  },
+  "live_0476": {
+    "tier": "DAILY",
+    "resolution_date": "2026-03-31T23:59:00",
+    "days_remaining": -7.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXBTCMAXMON-BTC-26MAR31-7250000"
+  },
+  "live_0477": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-POR-25-T20"
+  },
+  "live_0478": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCROUND-26FINAL-FRA"
+  },
+  "live_0479": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-T20000.00"
+  },
+  "live_0480": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B22500"
+  },
+  "live_0481": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B27500"
+  },
+  "live_0482": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B32500"
+  },
+  "live_0483": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B37500"
+  },
+  "live_0484": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B42500"
+  },
+  "live_0485": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B47500"
+  },
+  "live_0486": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B52500"
+  },
+  "live_0487": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B57500"
+  },
+  "live_0488": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B62500"
+  },
+  "live_0489": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B67500"
+  },
+  "live_0490": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B72500"
+  },
+  "live_0491": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B77500"
+  },
+  "live_0492": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B82500"
+  },
+  "live_0493": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B87500"
+  },
+  "live_0494": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B92500"
+  },
+  "live_0495": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B97500"
+  },
+  "live_0496": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B102500"
+  },
+  "live_0497": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B107500"
+  },
+  "live_0498": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B112500"
+  },
+  "live_0499": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B117500"
+  },
+  "live_0500": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B122500"
+  },
+  "live_0501": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B127500"
+  },
+  "live_0502": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B132500"
+  },
+  "live_0503": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B137500"
+  },
+  "live_0504": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B142500"
+  },
+  "live_0505": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-B147500"
+  },
+  "live_0506": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCY-27JAN0100-T149999.99"
+  },
+  "live_0507": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXHUNGARYPARLI-26-FIDESZ"
+  },
+  "live_0508": {
+    "tier": "WEEKLY",
+    "resolution_date": "2026-04-30T23:59:00",
+    "days_remaining": 22.06,
+    "bar_interval_seconds": 3600,
+    "kalshi_ticker": "KXHUNGARYPARLI-26-OPP"
+  },
+  "live_0509": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-RC"
+  },
+  "live_0510": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCROUND-26SEMI-NOR"
+  },
+  "live_0511": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTC2026250-27JAN01-250000"
+  },
+  "live_0512": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRBALLOT-26-RJUN"
+  },
+  "live_0513": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXF1CONSTRUCTORS-26-FER"
+  },
+  "live_0514": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBATOPPICK-26-GSW"
+  },
+  "live_0515": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMR-28-JDV"
+  },
+  "live_0516": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-07-01T23:59:00",
+    "days_remaining": 84.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXELECTIRAN-26JUL01"
+  },
+  "live_0517": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMLBNL-26-PHI"
+  },
+  "live_0518": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-NH"
+  },
+  "live_0519": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFLPRIMARY-23D26-JMOS"
+  },
+  "live_0520": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-GA"
+  },
+  "live_0521": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAWEST-26-LAL"
+  },
+  "live_0522": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINUCL-26-LFCBAR"
+  },
+  "live_0523": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXF1-26-GR"
+  },
+  "live_0524": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-CHA-25-T20"
+  },
+  "live_0525": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26F-JPN"
+  },
+  "live_0526": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVENEZUELALEADER-26DEC31-MRUB"
+  },
+  "live_0527": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-12-31T23:59:00",
+    "days_remaining": 632.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSECSTATEVISIT-27-MEX"
+  },
+  "live_0528": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINUCL-26-BMUARS"
+  },
+  "live_0529": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-POR-25-T30"
+  },
+  "live_0530": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXGAPRIMARY-12D26-CSMI"
+  },
+  "live_0531": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAF-26-DENDET"
+  },
+  "live_0532": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-12-31T23:59:00",
+    "days_remaining": 632.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSECSTATEVISIT-27-RUS"
+  },
+  "live_0533": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-12-31T23:59:00",
+    "days_remaining": 632.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDGOVNOM-27-JSHE"
+  },
+  "live_0534": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCMINY-27JAN01-60000.00"
+  },
+  "live_0535": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-RGAL"
+  },
+  "live_0536": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCROUND-26SEMI-SUI"
+  },
+  "live_0537": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-POR-25-T40"
+  },
+  "live_0538": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMENWORLDCUP-26-TR"
+  },
+  "live_0539": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBRBALLOT-26-RSAN"
+  },
+  "live_0540": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26F-NED"
+  },
+  "live_0541": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAF-26-DENBOS"
+  },
+  "live_0542": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMR-28-BK"
+  },
+  "live_0543": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCROUND-26SEMI-MAR"
+  },
+  "live_0544": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAEAST-26-BOS"
+  },
+  "live_0545": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-POR-25-T35"
+  },
+  "live_0546": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCROUND-26SEMI-NED"
+  },
+  "live_0547": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-TG"
+  },
+  "live_0548": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-ESLO"
+  },
+  "live_0549": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-04-30T23:59:00",
+    "days_remaining": 387.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFED-27APR-T0.00"
+  },
+  "live_0550": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTC2026200-27JAN01-200000"
+  },
+  "live_0551": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSENATEPAD-28-JFET"
+  },
+  "live_0552": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLIGAMX-26CLA-PAC"
+  },
+  "live_0553": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-MKEL"
+  },
+  "live_0554": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXUCLGAME-26APR08BARATM-BAR"
+  },
+  "live_0555": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXUCLGAME-26APR08BARATM-ATM"
+  },
+  "live_0556": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-08T23:59:00",
+    "days_remaining": 0.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXUCLGAME-26APR08BARATM-TIE"
+  },
+  "live_0557": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-ITRU"
+  },
+  "live_0558": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-12-31T23:59:00",
+    "days_remaining": 632.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSECSTATEVISIT-27-VEN"
+  },
+  "live_0559": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-03-01T23:59:00",
+    "days_remaining": 327.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXIRANDEMOCRACY-27MAR01-T6"
+  },
+  "live_0560": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-05-31T23:59:00",
+    "days_remaining": 418.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFRENCHPRES-27-EPHI"
+  },
+  "live_0561": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCROUND-26SEMI-JPN"
+  },
+  "live_0562": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-12-31T23:59:00",
+    "days_remaining": 267.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXBTCMAXY-26DEC31-139999.99"
+  },
+  "live_0563": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-05-31T23:59:00",
+    "days_remaining": 418.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFRENCHPRES-27-GATT"
+  },
+  "live_0564": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSENATEPAD-28-SWIL"
+  },
+  "live_0565": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAEF-26-DETBOS"
+  },
+  "live_0566": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-PB"
+  },
+  "live_0567": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-04-30T23:59:00",
+    "days_remaining": 387.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFED-27APR-T0.25"
+  },
+  "live_0568": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUEL-26-FCP"
+  },
+  "live_0569": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXETHMINY-27JAN01-750"
+  },
+  "live_0570": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-01T23:59:00",
+    "days_remaining": 54.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINUCL-26-PSGBAR"
+  },
+  "live_0571": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-04-30T23:59:00",
+    "days_remaining": 387.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFED-27APR-T0.75"
+  },
+  "live_0572": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-SHS"
+  },
+  "live_0573": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMLB-26-PHI"
+  },
+  "live_0574": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-RW"
+  },
+  "live_0575": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-05-31T23:59:00",
+    "days_remaining": 418.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFRENCHPRES-27-FRUF"
+  },
+  "live_0576": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXTEAMSINNBAF-26-LALBOS"
+  },
+  "live_0577": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2029-01-01T04:59:00",
+    "days_remaining": 998.27,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFEDCHAIRCONFIRM-KHAS"
+  },
+  "live_0578": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAEAST-26-NYK"
+  },
+  "live_0579": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-04-30T23:59:00",
+    "days_remaining": 387.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFED-27APR-T0.50"
+  },
+  "live_0580": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-BK"
+  },
+  "live_0581": {
+    "tier": "DAILY",
+    "resolution_date": "2026-03-31T23:59:00",
+    "days_remaining": -7.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXBTCD-26MAR3122-T67099.99"
+  },
+  "live_0582": {
+    "tier": "DAILY",
+    "resolution_date": "2026-03-31T23:59:00",
+    "days_remaining": -7.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXBTCD-26MAR3122-T67299.99"
+  },
+  "live_0583": {
+    "tier": "DAILY",
+    "resolution_date": "2026-03-31T23:59:00",
+    "days_remaining": -7.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXBTCD-26MAR3122-T67399.99"
+  },
+  "live_0584": {
+    "tier": "DAILY",
+    "resolution_date": "2026-03-31T23:59:00",
+    "days_remaining": -7.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXBTCD-26MAR3122-T67499.99"
+  },
+  "live_0585": {
+    "tier": "DAILY",
+    "resolution_date": "2026-03-31T23:59:00",
+    "days_remaining": -7.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXBTCD-26MAR3122-T67599.99"
+  },
+  "live_0586": {
+    "tier": "DAILY",
+    "resolution_date": "2026-03-31T23:59:00",
+    "days_remaining": -7.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXBTCD-26MAR3122-T67699.99"
+  },
+  "live_0587": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAWEST-26-MIN"
+  },
+  "live_0588": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-12-31T23:59:00",
+    "days_remaining": 632.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSECSTATEVISIT-27-UKR"
+  },
+  "live_0589": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-CHA-25-T40"
+  },
+  "live_0590": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-CHA-25-T5"
+  },
+  "live_0591": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-11-05T23:59:00",
+    "days_remaining": 942.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "SENATEWA-28-D"
+  },
+  "live_0592": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMR-28-GY"
+  },
+  "live_0593": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26J-ARG"
+  },
+  "live_0594": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-JT"
+  },
+  "live_0595": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-12T23:59:00",
+    "days_remaining": 4.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXFIDESZKDNPSEATS-26APR12-A80"
+  },
+  "live_0596": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-CHA-25-T30"
+  },
+  "live_0597": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-01-01T23:59:00",
+    "days_remaining": 268.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXTRUMPCOUNTRIES-27JAN01-TAI"
+  },
+  "live_0598": {
+    "tier": "DAILY",
+    "resolution_date": "2026-04-12T23:59:00",
+    "days_remaining": 4.06,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXFIDESZKDNPSEATS-26APR12-A100"
+  },
+  "live_0599": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXVPRESNOMD-28-WM"
+  },
+  "live_0600": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2028-08-31T23:59:00",
+    "days_remaining": 876.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXPRESNOMR-28-RFK"
+  },
+  "live_0601": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-CHA-25-T25"
+  },
+  "live_0602": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLIGAMX-26CLA-TIG"
+  },
+  "live_0603": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-10-31T23:59:00",
+    "days_remaining": 206.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXMLB-26-MIA"
+  },
+  "live_0604": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26K-COD"
+  },
+  "live_0605": {
+    "tier": "DAILY",
+    "resolution_date": "2025-06-30T23:59:00",
+    "days_remaining": -281.94,
+    "bar_interval_seconds": 900,
+    "kalshi_ticker": "KXNBAWINS-CHA-25-T10"
+  },
+  "live_0606": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-07-19T23:59:00",
+    "days_remaining": 102.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXWCGROUPWIN-26C-SCO"
+  },
+  "live_0607": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-06-30T23:59:00",
+    "days_remaining": 83.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXNBAWEST-26-DEN"
+  },
+  "live_0608": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXME02D-26-MDUN"
+  },
+  "live_0609": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXLIGAMX-26CLA-AME"
+  },
+  "live_0610": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUEL-26-BRA"
+  },
+  "live_0611": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-05-31T23:59:00",
+    "days_remaining": 418.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFRENCHPRES-27-MLEP"
+  },
+  "live_0612": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2026-11-05T23:59:00",
+    "days_remaining": 211.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXSENATELAD-26-GCRO"
+  },
+  "live_0613": {
+    "tier": "MONTHLY",
+    "resolution_date": "2026-05-31T23:59:00",
+    "days_remaining": 53.06,
+    "bar_interval_seconds": 14400,
+    "kalshi_ticker": "KXUEL-26-AVL"
+  },
+  "live_0614": {
+    "tier": "QUARTERLY",
+    "resolution_date": "2027-04-30T23:59:00",
+    "days_remaining": 387.06,
+    "bar_interval_seconds": 86400,
+    "kalshi_ticker": "KXFED-27APR-T1.00"
+  }
+}

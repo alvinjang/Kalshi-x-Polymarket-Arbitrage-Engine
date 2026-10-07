@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-24T02:02:15.830273+00:00",
+  "generator": "scripts/export_canonical_oil.py",
+  "phase": "A.2",
+  "purpose": "Phase A canonical-oil XGBoost deployment artifact bundle. Live inference reads xgboost.pkl + feature_columns.json + zero_variance_columns.json from this directory.",
+  "git_sha_at_export": "2fdcaca72c03ee04d0771528c2e15f59a1677b62",
+  "training": {
+    "config": {
+      "max_depth": 3,
+      "learning_rate": 0.3,
+      "n_estimators": 500,
+      "random_state": 42
+    },
+    "seed": 42,
+    "n_train_rows": 19404,
+    "n_train_pairs": 154,
+    "n_test_rows": 5251,
+    "n_test_pairs": 39,
+    "n_features": 50,
+    "n_zero_variance": 25,
+    "target_column": "spread_change_target"
+  },
+  "data_sources": {
+    "train_parquet": "/usr4/ds340/iansabia/DS340-Project/data/processed/canonical_oil/train.parquet",
+    "train_parquet_sha256": "a175b053cd34619fb211620e190c8339d37a02c9a54e3c566c5f3503fb13c7fd",
+    "test_parquet": "/usr4/ds340/iansabia/DS340-Project/data/processed/canonical_oil/test.parquet",
+    "test_parquet_sha256": "0e3701a5f6e04da3ed07befcab12b64b5d70a58c45c1eed6191a83450cb095a3",
+    "split_metadata": "/usr4/ds340/iansabia/DS340-Project/data/processed/canonical_oil/split_metadata.json",
+    "headline_result_reference": "/usr4/ds340/iansabia/DS340-Project/experiments/results/canonical_oil/headline/xgboost.json"
+  },
+  "eval_at_threshold_0.001": {
+    "rmse": 0.02632754825945219,
+    "num_trades": 4262,
+    "alpha_bps": 43.167526982637256
+  },
+  "live_deployment": {
+    "prediction_threshold": 0.001,
+    "oil_family_prefixes": [
+      "KXWTI",
+      "KXBRENT",
+      "KXCRUDE",
+      "KXDIESEL",
+      "KXHEATINGOIL",
+      "KXGASOLINE",
+      "KXMEXCUBOIL"
+    ],
+    "shadow_log": "data/live/canonical_predictions.jsonl",
+    "env_gates": {
+      "CANONICAL_OIL_ENABLED": "false (default; flip on at A2 cutover)",
+      "CANONICAL_OIL_SHADOW": "true (default during A1 shadow window)"
+    }
+  }
+}

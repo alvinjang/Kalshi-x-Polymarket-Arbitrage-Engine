@@ -1,0 +1,132 @@
+name: Discover New Markets
+
+# Runs less often than the trading cycle because the matcher is expensive
+# and new short-dated contracts appear on a slow timescale. Every 3 hours
+# is plenty to catch fresh daily/weekly oil, Fed, and sports contracts
+# before they matter.
+on:
+  # SCHEDULE DISABLED 2026-05-23 post-Q1/Q2 architecture migration.
+  # active_matches.json is now off-tree (symlink to /projectnb/ds340/.../
+  # live_state/) and gitignored, so GHA checkouts have no file to write to
+  # in the expected location. Discovery would run, but its commit step
+  # would no-op (or stage a regular file diverging from the SCC symlink
+  # state). Re-enable only after Phase 3 of the bars-sync mechanism in
+  # scripts/scc_hardened/bars_parquet_architecture.md gives GHA a way to
+  # materialize the off-tree live state at the start of each run.
+  # schedule:
+  #   - cron: '17 */3 * * *'   # :17 past every 3rd hour (avoid :00 queue spike)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-markets
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements-ci.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements-ci.txt
+
+      - name: Run market discovery
+        env:
+          # scripts/discover_markets.py does `from src.live.market_discovery
+          # import run_discovery`. When python is invoked on a raw script
+          # file (not via `python -m`), the CWD is NOT automatically added
+          # to sys.path, so that import fails with ModuleNotFoundError.
+          # PYTHONPATH=. fixes it.
+          PYTHONPATH: .
+        run: |
+          echo "=== Discovering new Kalshi <-> Polymarket pairs ==="
+          python scripts/discover_markets.py --live-dir data/live --similarity-threshold 0.70
+          echo ""
+          echo "=== Current universe after discovery ==="
+          python -c "
+          import json
+          with open('data/live/active_matches.json') as f:
+              m = json.load(f)
+          print(f'Total pairs in active_matches.json: {len(m)}')
+          # Show how many were freshly added this run
+          import time
+          now = int(time.time())
+          recent = [x for x in m if (now - x.get('discovered_at', 0)) < 7200]
+          print(f'Added in last 2 hours: {len(recent)}')
+          if recent:
+              print('Sample:')
+              for x in recent[:5]:
+                  print(f\"  {x.get('kalshi_ticker','?')} sim={x.get('similarity',0):.3f}\")
+          "
+
+      - name: Run data-scaling experiment if we've crossed a new checkpoint
+        env:
+          PYTHONPATH: .
+        run: |
+          echo "=== Data scaling experiment (auto mode) ==="
+          # Runs every checkpoint we've crossed since the last run.
+          # Cheap for Tier 1, skipped automatically if we haven't hit
+          # the next boundary yet. Tier 2 (GRU/LSTM) auto-includes
+          # above 100 bars/pair.
+          python scripts/run_data_scaling.py --auto || echo "(scaling runner reported no new checkpoints)"
+          echo ""
+          python scripts/plot_data_scaling.py || echo "(plotter reported no data yet)"
+
+      - name: Commit and push new pairs + scaling results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # active_matches.json is tracked, not gitignored
+          git add data/live/active_matches.json
+          # Data-scaling experiment artifacts
+          git add experiments/results/data_scaling/log.jsonl 2>/dev/null || true
+          git add experiments/results/data_scaling/state.json 2>/dev/null || true
+          git add 'experiments/results/data_scaling/*.png' 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+          N=$(python -c "import json; print(len(json.load(open('data/live/active_matches.json'))))")
+          git commit -m "data: discover markets ${TIMESTAMP} (${N} total pairs)"
+
+          # Retry push with rebase on race. SCC trading cycles push every
+          # 15 min and can land on the remote mid-run, causing a non-fast-
+          # forward rejection. Rebase-then-retry up to 3 times handles
+          # the normal collision without losing the discovery commit.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push rejected on attempt ${attempt}; rebasing on remote and retrying..."
+            git pull --rebase --autostash origin master
+          done
+          echo "ERROR: push failed after 3 rebase-retry attempts" >&2
+          exit 1

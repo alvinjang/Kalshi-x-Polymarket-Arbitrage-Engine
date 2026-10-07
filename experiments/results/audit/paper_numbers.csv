@@ -1,0 +1,87 @@
+claim_text,claim_value,kind,paper_section,line_number,source_file,source_command,match_status
+Sharpe of 0.501,0.501,sharpe,## Abstract,12,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+"per-trade Sharpe rises to 0.516 with +15.7 bps per-trade alpha (leakage-free purged split)",0.516,sharpe,## Abstract,12,experiments/results/audit/sharpe_audit_purged.json,PYTHONPATH=. python3 experiments/audit/audit_sharpe_purged.py,PASS: Plan 18-07 replaced the un-derivable ≈ 3.2 per-pair annualized claim with the leakage-free per-trade Sharpe headline (purged 0.516, drift +2.99% from canonical 0.501). Reproducible from sharpe_audit_purged.json.
+15.0 bps,15.0,bps,## Abstract,12,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+14.9 bps,14.9,bps,## Abstract,12,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+14.3 bps,14.3,bps,## Abstract,12,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+14.0 bps,14.0,bps,## Abstract,12,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+0.5 bps,0.5,bps,## Abstract,12,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+\$100,100,dollar,## Abstract,12,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+\$100,100,dollar,### 5.1 Headline Model Comparison,213,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+\$100,100,dollar,### 5.1 Headline Model Comparison,215,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+\$100,100,dollar,### 5.1 Headline Model Comparison,217,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$58.12,58.12,dollar,### 5.1 Headline Model Comparison,219,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+47.7%,47.7,pct,### 5.1 Headline Model Comparison,219,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+47.9%,47.9,pct,### 5.1 Headline Model Comparison,219,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$59.81,59.81,dollar,### 5.1 Headline Model Comparison,220,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+47.7%,47.7,pct,### 5.1 Headline Model Comparison,220,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+48.1%,48.1,pct,### 5.1 Headline Model Comparison,220,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$232.67,232.67,dollar,### 5.1 Headline Model Comparison,221,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+56.9%,56.9,pct,### 5.1 Headline Model Comparison,221,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+57.8%,57.8,pct,### 5.1 Headline Model Comparison,221,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$232.83,232.83,dollar,### 5.1 Headline Model Comparison,222,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+56.6%,56.6,pct,### 5.1 Headline Model Comparison,222,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+57.4%,57.4,pct,### 5.1 Headline Model Comparison,222,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$221.84,221.84,dollar,### 5.1 Headline Model Comparison,223,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+65.5%,65.5,pct,### 5.1 Headline Model Comparison,223,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+56.5%,56.5,pct,### 5.1 Headline Model Comparison,223,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$212.50,212.50,dollar,### 5.1 Headline Model Comparison,224,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+64.3%,64.3,pct,### 5.1 Headline Model Comparison,224,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+55.8%,55.8,pct,### 5.1 Headline Model Comparison,224,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$6.57,6.57,dollar,### 5.1 Headline Model Comparison,225,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+51.7%,51.7,pct,### 5.1 Headline Model Comparison,225,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+37.5%,37.5,pct,### 5.1 Headline Model Comparison,225,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$158.15,158.15,dollar,### 5.1 Headline Model Comparison,226,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+60.5%,60.5,pct,### 5.1 Headline Model Comparison,226,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+52.2%,52.2,pct,### 5.1 Headline Model Comparison,226,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$4.61,4.61,dollar,### 5.1 Headline Model Comparison,227,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+27.2%,27.2,pct,### 5.1 Headline Model Comparison,227,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+43.2%,43.2,pct,### 5.1 Headline Model Comparison,227,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+Sharpe 0.501,0.501,sharpe,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+4 bps,4,bps,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+15 bps,15,bps,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+1.0 bps,1.0,bps,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+0.5 bps,0.5,bps,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+15.0 bps,15.0,bps,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+14.9 bps,14.9,bps,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+0.3 bps,0.3,bps,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+1.0 bps,1.0,bps,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+\$9,9,dollar,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+9%,9,pct,### 5.1 Headline Model Comparison,231,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+95%,95,pct,### 5.1 Headline Model Comparison,233,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+Sharpe of 0.499,0.499,sharpe,### 5.8 Honest Sharpe-Ratio Accounting,372,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+Sharpe 1.0,1.0,sharpe,### 5.8 Honest Sharpe-Ratio Accounting,383,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+Sharpe of 0.499,0.499,sharpe,### 5.8 Honest Sharpe-Ratio Accounting,385,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+15.0 bps,15.0,bps,### 5.8 Honest Sharpe-Ratio Accounting,385,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+5 bps,5,bps,### 5.8 Honest Sharpe-Ratio Accounting,385,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+15 bps,15,bps,### 5.8 Honest Sharpe-Ratio Accounting,385,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+0.5 bps,0.5,bps,### 5.8 Honest Sharpe-Ratio Accounting,385,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+9.6 bps,9.6,bps,### 5.8 Honest Sharpe-Ratio Accounting,385,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+5 bps,5,bps,### 5.8 Honest Sharpe-Ratio Accounting,385,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+\$100,100,dollar,### 5.8 Honest Sharpe-Ratio Accounting,385,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+0.5 bps,0.5,bps,### 6.3 The Negative Result on PPO,646,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+9.6 bps,9.6,bps,### 6.3 The Negative Result on PPO,646,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+9 bps,9,bps,### 6.3 The Negative Result on PPO,646,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+\$100,100,dollar,### 6.3 The Negative Result on PPO,646,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+\$0.50,0.50,dollar,### 6.3 The Negative Result on PPO,646,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+Sharpe 0.501,0.501,sharpe,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+Sharpe 0.499,0.499,sharpe,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+Sharpe 0.473,0.473,sharpe,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+Sharpe 0.459,0.459,sharpe,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+15.0 bps,15.0,bps,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+14.9 bps,14.9,bps,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+14.3 bps,14.3,bps,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+14.0 bps,14.0,bps,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+1.0 bps,1.0,bps,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+0.5 bps,0.5,bps,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+\$100,100,dollar,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$232.67,232.67,dollar,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$232.83,232.83,dollar,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$221.84,221.84,dollar,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$212.50,212.50,dollar,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$4.61,4.61,dollar,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$158.15,158.15,dollar,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+10%,10,pct,## 8. Conclusions,702,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
++\$10.73,10.73,dollar,## 8. Conclusions,706,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+76.5%,76.5,pct,## 8. Conclusions,706,experiments/results/canonical/headline.json,python3 experiments/run_canonical.py,PENDING
+"per-trade Sharpe of 0.501 (leaky) → 0.516 (leakage-free purged split)",0.516,sharpe,## 8. Conclusions,710,experiments/results/audit/sharpe_audit_purged.json,PYTHONPATH=. python3 experiments/audit/audit_sharpe_purged.py,PASS: Plan 18-07 replaced the un-derivable ≈ 3.2 per-pair annualized claim in §8 item 5 with the leakage-free per-trade Sharpe headline matching the new abstract.

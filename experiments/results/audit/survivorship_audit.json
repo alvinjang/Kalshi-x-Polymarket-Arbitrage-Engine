@@ -1,0 +1,81 @@
+{
+  "audit": "survivorship",
+  "tier": 4,
+  "ran_at": "2026-04-25T19:57:16.719816+00:00",
+  "verdict": "PASS",
+  "n_candidate_pairs": 148238,
+  "n_realized_pairs": 144,
+  "n_dropped_pairs": 148094,
+  "drop_rate": 0.999,
+  "random_sample_size": 10,
+  "random_sample": [
+    {
+      "pair_id": "kxbtc26apr1500t61200-0x58fb4378",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    },
+    {
+      "pair_id": "kxbnb26apr1822b467-0x1b3b0ec3",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    },
+    {
+      "pair_id": "kxcpicore26aprt01-0x42df8b1f",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    },
+    {
+      "pair_id": "kxbtcd26apr2217t8099999-0x23fb92bb",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    },
+    {
+      "pair_id": "kxbtcd26apr2005t7229999-0x63743613",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    },
+    {
+      "pair_id": "kxbtc26apr2017b73125-0x63743613",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    },
+    {
+      "pair_id": "kxbtc26apr1400b64050-0x1c2f06de",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    },
+    {
+      "pair_id": "kxsole26apr2010b69-0xedfc3d87",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    },
+    {
+      "pair_id": "kxbnbd26apr2407t63499-0x1b3b0ec3",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    },
+    {
+      "pair_id": "kxethd26apr2122t152999-0x4c608ba8",
+      "drop_reason_inferred": "low_overlap_n_bars=0",
+      "manual_classification_required": "structural",
+      "human_classification": "pending_human_review"
+    }
+  ],
+  "n_requiring_manual_review": 0,
+  "assumptions": [
+    "Candidate universe is approximated from aligned_pairs.parquet + active_matches.json. Tighter would require replaying the matching pipeline on raw data, which is out of scope for Phase 18.",
+    "active_matches.json schema does not store a top-level pair_id key; we synthesize it from kalshi_ticker + poly_id via src.live.pair_ids.make_pair_id (the post-2026-04-11 content-addressed scheme). Entries missing both kalshi_ticker and poly_id are skipped.",
+    "Drop-reason inference is heuristic (low_overlap if < 20 bars, pre_test_window otherwise). REVIEW entries (those falling through all heuristics) require Ian's manual sign-off per VALIDATION.md manual-only verifications row before the verdict can be PASS.",
+    "If any random_sample entry has drop_reason mentioning post-resolution outcome metadata (post_hoc, negative_return, loss), the audit FAILS: that's retroactive dropping = survivorship bias.",
+    "Each random_sample entry is marked human_classification='pending_human_review'; Plan 18-07 (Wave 3) opens a checkpoint for Ian to classify each as structural / retroactive and rerun this audit to lock the final verdict."
+  ]
+}

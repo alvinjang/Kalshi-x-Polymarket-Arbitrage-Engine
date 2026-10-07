@@ -1,0 +1,179 @@
+{
+  "experiment": "Experiment 1: Cross-Tier Complexity vs Performance",
+  "dataset": {
+    "n_train": 6802,
+    "n_test": 1673,
+    "n_features": 31,
+    "threshold": 0.02
+  },
+  "models": [
+    {
+      "model_name": "Naive (Spread Closes)",
+      "tier": 1,
+      "rmse_rank": 8,
+      "metrics": {
+        "rmse": 0.49946794281309964,
+        "mae": 0.3806407733670725,
+        "directional_accuracy": 0.5332866152768044,
+        "total_pnl": 58.120531093856556,
+        "num_trades": 1460,
+        "win_rate": 0.4794520547945205,
+        "sharpe_ratio": 12.659405006656637,
+        "sharpe_per_trade": 0.12528081953545628
+      }
+    },
+    {
+      "model_name": "Volume (Higher Volume Correct)",
+      "tier": 1,
+      "rmse_rank": 7,
+      "metrics": {
+        "rmse": 0.45662890859719407,
+        "mae": 0.34486237814260134,
+        "directional_accuracy": 0.5332866152768044,
+        "total_pnl": 59.81199635862164,
+        "num_trades": 1440,
+        "win_rate": 0.48055555555555557,
+        "sharpe_ratio": 12.760871692900421,
+        "sharpe_per_trade": 0.13056595290080408
+      }
+    },
+    {
+      "model_name": "Linear Regression",
+      "tier": 1,
+      "rmse_rank": 4,
+      "metrics": {
+        "rmse": 0.30807551546124584,
+        "mae": 0.22525697777348436,
+        "directional_accuracy": 0.6594253679046952,
+        "total_pnl": 230.14171781112927,
+        "num_trades": 1542,
+        "win_rate": 0.5732814526588845,
+        "sharpe_ratio": 15.493657347676242,
+        "sharpe_per_trade": 0.4945688202227722
+      }
+    },
+    {
+      "model_name": "XGBoost",
+      "tier": 1,
+      "rmse_rank": 1,
+      "metrics": {
+        "rmse": 0.28570837610698924,
+        "mae": 0.22161749844571416,
+        "directional_accuracy": 0.677645409950946,
+        "total_pnl": 238.40710590747386,
+        "num_trades": 1538,
+        "win_rate": 0.581924577373212,
+        "sharpe_ratio": 15.637415552926619,
+        "sharpe_per_trade": 0.5215569257945432
+      }
+    },
+    {
+      "model_name": "GRU",
+      "tier": 2,
+      "rmse_rank": 3,
+      "metrics": {
+        "rmse": 0.29283210546714233,
+        "mae": 0.22288141364337782,
+        "directional_accuracy": 0.6433076384022425,
+        "total_pnl": 212.5026613341207,
+        "num_trades": 1517,
+        "win_rate": 0.5583388266315096,
+        "sharpe_ratio": 20.24053855543067,
+        "sharpe_per_trade": 0.458641307036007
+      },
+      "mean_rmse": 0.2896028987945789,
+      "std_rmse": 0.0023539969028958745,
+      "seeds": [
+        42,
+        123,
+        456
+      ],
+      "seed_rmses": [
+        0.28728749568113615,
+        0.28868909523545827,
+        0.29283210546714233
+      ]
+    },
+    {
+      "model_name": "LSTM",
+      "tier": 2,
+      "rmse_rank": 2,
+      "metrics": {
+        "rmse": 0.29145703670891693,
+        "mae": 0.2239097379331562,
+        "directional_accuracy": 0.6545199719691661,
+        "total_pnl": 221.83971239912825,
+        "num_trades": 1547,
+        "win_rate": 0.5649644473173885,
+        "sharpe_ratio": 21.116869800411205,
+        "sharpe_per_trade": 0.4731967066024309
+      },
+      "mean_rmse": 0.2909686443941472,
+      "std_rmse": 0.0004072551422411736,
+      "seeds": [
+        42,
+        123,
+        456
+      ],
+      "seed_rmses": [
+        0.2909888150964068,
+        0.290460081377118,
+        0.29145703670891693
+      ]
+    },
+    {
+      "model_name": "PPO-Raw",
+      "tier": 3,
+      "rmse_rank": 5,
+      "metrics": {
+        "rmse": 0.31888987596707213,
+        "mae": 0.20265099154517774,
+        "directional_accuracy": 0.6054660126138752,
+        "total_pnl": 158.15298444845692,
+        "num_trades": 1656,
+        "win_rate": 0.5217391304347826,
+        "sharpe_ratio": 14.017612569158382,
+        "sharpe_per_trade": 0.3057419871936992
+      },
+      "mean_rmse": 0.3188609206768123,
+      "std_rmse": 0.0006081652822729175,
+      "seeds": [
+        42,
+        123,
+        456
+      ],
+      "seed_rmses": [
+        0.318102017945312,
+        0.3195908681180529,
+        0.31888987596707213
+      ]
+    },
+    {
+      "model_name": "PPO-Filtered",
+      "tier": 3,
+      "rmse_rank": 6,
+      "metrics": {
+        "rmse": 0.32678773060053606,
+        "mae": 0.20423904680340596,
+        "directional_accuracy": 0.27189908899789766,
+        "total_pnl": 4.607821818303617,
+        "num_trades": 899,
+        "win_rate": 0.43159065628476084,
+        "sharpe_ratio": 0.7897380376316208,
+        "sharpe_per_trade": 0.014296484590545602
+      },
+      "mean_rmse": 0.32788693253615614,
+      "std_rmse": 0.0008157874170284327,
+      "seeds": [
+        42,
+        123,
+        456
+      ],
+      "seed_rmses": [
+        0.3287399803579945,
+        0.32813308664993784,
+        0.32678773060053606
+      ]
+    }
+  ]
+}

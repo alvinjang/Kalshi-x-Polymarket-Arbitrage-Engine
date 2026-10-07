@@ -1,0 +1,377 @@
+{
+  "audit": "leakage",
+  "tier": 2,
+  "ran_at": "2026-04-25T19:49:02.702560+00:00",
+  "verdict": "FAILED",
+  "feature_classification": [
+    {
+      "feature": "price_velocity",
+      "line": 36,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"price_velocity\"] = result.groupby(\"pair_id\")[\"spread\"].diff()"
+    },
+    {
+      "feature": "volume_ratio",
+      "line": 40,
+      "verdict": "Suspicious",
+      "evidence": [
+        "rolling_window_endpoint_check_required"
+      ],
+      "code_snippet": "result[\"volume_ratio\"] = ("
+    },
+    {
+      "feature": "spread_momentum",
+      "line": 45,
+      "verdict": "Suspicious",
+      "evidence": [
+        "rolling_window_endpoint_check_required"
+      ],
+      "code_snippet": "result[\"spread_momentum\"] = result.groupby(\"pair_id\")[\"spread\"].transform("
+    },
+    {
+      "feature": "spread_volatility",
+      "line": 50,
+      "verdict": "Suspicious",
+      "evidence": [
+        "rolling_window_endpoint_check_required"
+      ],
+      "code_snippet": "result[\"spread_volatility\"] = result.groupby(\"pair_id\")[\"spread\"].transform("
+    },
+    {
+      "feature": "kalshi_order_flow_imbalance",
+      "line": 56,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"kalshi_order_flow_imbalance\"] = ("
+    },
+    {
+      "feature": "polymarket_order_flow_imbalance",
+      "line": 62,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"polymarket_order_flow_imbalance\"] = ("
+    },
+    {
+      "feature": "spread_momentum_6",
+      "line": 70,
+      "verdict": "Suspicious",
+      "evidence": [
+        "rolling_window_endpoint_check_required"
+      ],
+      "code_snippet": "result[\"spread_momentum_6\"] = result.groupby(\"pair_id\")[\"spread\"].transform("
+    },
+    {
+      "feature": "spread_momentum_12",
+      "line": 73,
+      "verdict": "Suspicious",
+      "evidence": [
+        "rolling_window_endpoint_check_required"
+      ],
+      "code_snippet": "result[\"spread_momentum_12\"] = result.groupby(\"pair_id\")[\"spread\"].transform("
+    },
+    {
+      "feature": "spread_volatility_6",
+      "line": 78,
+      "verdict": "Suspicious",
+      "evidence": [
+        "rolling_window_endpoint_check_required"
+      ],
+      "code_snippet": "result[\"spread_volatility_6\"] = result.groupby(\"pair_id\")[\"spread\"].transform("
+    },
+    {
+      "feature": "spread_zscore",
+      "line": 85,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"spread_zscore\"] = ("
+    },
+    {
+      "feature": "spread_range",
+      "line": 92,
+      "verdict": "Suspicious",
+      "evidence": [
+        "rolling_window_endpoint_check_required"
+      ],
+      "code_snippet": "result[\"spread_range\"] = result.groupby(\"pair_id\")[\"spread\"].transform("
+    },
+    {
+      "feature": "dollar_volume_ratio",
+      "line": 98,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"dollar_volume_ratio\"] = ("
+    },
+    {
+      "feature": "trade_count_ratio",
+      "line": 102,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"trade_count_ratio\"] = ("
+    },
+    {
+      "feature": "mid_price",
+      "line": 108,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"mid_price\"] = (result[\"kalshi_close\"] + result[\"polymarket_close\"]) / 2.0"
+    },
+    {
+      "feature": "price_divergence_pct",
+      "line": 112,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"price_divergence_pct\"] = ("
+    },
+    {
+      "feature": "kalshi_amihud",
+      "line": 130,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"kalshi_amihud\"] = ("
+    },
+    {
+      "feature": "polymarket_amihud",
+      "line": 135,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"polymarket_amihud\"] = ("
+    },
+    {
+      "feature": "kalshi_hl_vol",
+      "line": 173,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"kalshi_hl_vol\"] = ("
+    },
+    {
+      "feature": "polymarket_hl_vol",
+      "line": 178,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"polymarket_hl_vol\"] = ("
+    },
+    {
+      "feature": "ofi_differential",
+      "line": 195,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"ofi_differential\"] = _p_ofi.fillna(0) - _k_ofi.fillna(0)"
+    },
+    {
+      "feature": "ofi_differential",
+      "line": 197,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"ofi_differential\"] = np.nan"
+    },
+    {
+      "feature": "boundary_distance",
+      "line": 223,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"boundary_distance\"] = result[\"mid_price\"].clip(0, 1).apply("
+    },
+    {
+      "feature": "longshot_score",
+      "line": 233,
+      "verdict": "Safe",
+      "evidence": [],
+      "code_snippet": "result[\"longshot_score\"] = result[\"mid_price\"].apply("
+    }
+  ],
+  "n_features_classified": 23,
+  "n_leaking": 0,
+  "n_suspicious": 7,
+  "walk_forward_embargo": {
+    "n_train_pairs": 144,
+    "n_test_pairs": 144,
+    "n_bridging_pairs": 144,
+    "n_embargo_violations": 142,
+    "embargo_seconds": 86400,
+    "violations_sample": [
+      {
+        "pair_id": "kxtxsenrprimary-0xf9fca8a0",
+        "train_end": "1773532800",
+        "test_start": "1773547200",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      },
+      {
+        "pair_id": "kxbtcd26mar1317-0x561062ac",
+        "train_end": "1773302400",
+        "test_start": "1773316800",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      },
+      {
+        "pair_id": "kxcpicore26jant-0xff8bf331",
+        "train_end": "1770681600",
+        "test_start": "1770696000",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      },
+      {
+        "pair_id": "kxcpiyoy26jant2-0x84ba652d",
+        "train_end": "1770523200",
+        "test_start": "1770537600",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      },
+      {
+        "pair_id": "kxeth26feb0617b-0x24749b65",
+        "train_end": "1770220800",
+        "test_start": "1770235200",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      },
+      {
+        "pair_id": "kxbtc26jan1617t-0xc7bf7d03",
+        "train_end": "1768507200",
+        "test_start": "1768521600",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      },
+      {
+        "pair_id": "kxcpicore26febt-0xc1691f09",
+        "train_end": "1772913600",
+        "test_start": "1772928000",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      },
+      {
+        "pair_id": "kxbtc26feb2017b-0xe5dfb265",
+        "train_end": "1771272000",
+        "test_start": "1771286400",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      },
+      {
+        "pair_id": "kxbtc26feb0617b-0x0356fe1e",
+        "train_end": "1770076800",
+        "test_start": "1770091200",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      },
+      {
+        "pair_id": "kxbtc26mar2017b-0x67b7f4fb",
+        "train_end": "1773907200",
+        "test_start": "1773921600",
+        "gap_seconds": 14400.0,
+        "gap_hours": 4.0
+      }
+    ]
+  },
+  "quality_filter_rules": [
+    {
+      "rule": "MIN_CONFIDENCE",
+      "uses": [
+        "confidence_score"
+      ],
+      "retroactive": false,
+      "evidence": "confidence is a pre-trade match score; not outcome-aware"
+    },
+    {
+      "rule": "MAX_RESOLUTION_GAP_DAYS (rule 2)",
+      "uses": [
+        "kalshi_resolution_date",
+        "polymarket_resolution_date"
+      ],
+      "retroactive": false,
+      "evidence": "resolution DATE is a contract metadata field, not the OUTCOME. Known at listing."
+    },
+    {
+      "rule": "directions_compatible (rule 3)",
+      "uses": [
+        "question text"
+      ],
+      "retroactive": false,
+      "evidence": "question text is fixed at contract listing"
+    },
+    {
+      "rule": "thresholds_compatible (rule 4)",
+      "uses": [
+        "question text"
+      ],
+      "retroactive": false,
+      "evidence": "thresholds are fixed at listing"
+    },
+    {
+      "rule": "Rule 1 season-wins vs champion",
+      "uses": [
+        "ticker prefix",
+        "title keywords"
+      ],
+      "retroactive": false,
+      "evidence": "ticker + title fixed at listing"
+    },
+    {
+      "rule": "Rule 2 Fed year/month mismatch",
+      "uses": [
+        "ticker date encoding",
+        "title month/year"
+      ],
+      "retroactive": false,
+      "evidence": "Fed contract dates are fixed at listing"
+    },
+    {
+      "rule": "Rule 3 cabinet vs nomination",
+      "uses": [
+        "title keywords"
+      ],
+      "retroactive": false,
+      "evidence": "title keywords fixed at listing"
+    },
+    {
+      "rule": "Rule 3b threshold vs ranking",
+      "uses": [
+        "ticker structure",
+        "poly title"
+      ],
+      "retroactive": false,
+      "evidence": "structural at listing"
+    },
+    {
+      "rule": "Rule 3c threshold vs policy",
+      "uses": [
+        "title keywords"
+      ],
+      "retroactive": false,
+      "evidence": "structural"
+    },
+    {
+      "rule": "Rule 3d AAA gas geography",
+      "uses": [
+        "ticker suffix",
+        "poly title geography"
+      ],
+      "retroactive": false,
+      "evidence": "structural"
+    },
+    {
+      "rule": "Rule stale_ticker",
+      "uses": [
+        "ticker year vs current year"
+      ],
+      "retroactive": true,
+      "evidence": "FLAG: uses _current_year() at audit time, NOT at backtest time. If audit runs on 2026-04-25 and backtest data is from 2026-01, a 2026 ticker passing the stale_ticker rule today would also have passed in January. Likely benign because rejection is a coarse 'past year' check, but MUST be verified with timestamp-aware version."
+    },
+    {
+      "rule": "Rule 10 asset-class consistency",
+      "uses": [
+        "Kalshi ticker prefix",
+        "title tokens"
+      ],
+      "retroactive": false,
+      "evidence": "asset class fixed at listing"
+    }
+  ],
+  "n_qf_retroactive": 1,
+  "assumptions": [
+    "Train/test split in canonical pipeline is row-based 80/20, not pair-based.",
+    "Suspicious-pattern flagging is regex-based; manual review required for each Suspicious entry to confirm rolling endpoint <= entry_ts.",
+    "Quality-filter rule-by-rule analysis is hand-curated; if new rules are added in src/matching/quality_filter.py, this list must be updated.",
+    "Timestamp column in train.parquet / test.parquet is int64 epoch seconds; embargo-gap computation uses plain integer subtraction.",
+    "Embargo policy: gap_seconds < 86400 (1 day) constitutes a violation; longer embargoes (e.g. 7 days for prediction-market positions) would tighten the audit further."
+  ]
+}

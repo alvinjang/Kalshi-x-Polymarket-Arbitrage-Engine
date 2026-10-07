@@ -1,0 +1,26 @@
+{
+  "n_trades_replayed": 49727,
+  "actual_total_pnl": 293.33800000000195,
+  "old_rule": {
+    "tp_ratio": 0.5,
+    "estimated_total_pnl": 193.66925000000134,
+    "exit_counts": {
+      "HOLD_TO_REAL_EXIT": 48154,
+      "TAKE_PROFIT": 964,
+      "STOP_LOSS": 609
+    }
+  },
+  "new_rule": {
+    "tp_ratio": 0.7,
+    "estimated_total_pnl": 105.03345000000037,
+    "exit_counts": {
+      "HOLD_TO_REAL_EXIT": 47669,
+      "TAKE_PROFIT": 1450,
+      "STOP_LOSS": 608
+    }
+  },
+  "delta_pnl": -88.63580000000097,
+  "trades_helped": 187,
+  "trades_hurt": 1263,
+  "trades_unchanged": 48277
+}
